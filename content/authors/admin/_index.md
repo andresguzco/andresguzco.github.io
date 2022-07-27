@@ -62,6 +62,6 @@ email: ''
 highlight_name: true
 ---
 
-Andres Guzman Cordero is a student of Economics and Econometrics at the Vrije Universiteit Amsterdam. His overarching research interest is the application of mathematical, statistical and computational methods to identify causality in economic phenomena. This includes the study of dynamical systems, machine learning, experimental design and the implementation of research tools. He is Research Assistant at the Spatial Economics Department, which develops ...
+Andres Guzman Cordero is a student of Economics and Econometrics at the Vrije Universiteit Amsterdam. His overarching research interest is the application of mathematical, statistical and computational methods to identify causality in economic phenomena. This includes the study of dynamical systems, machine learning, experimental design and the implementation of research tools. He is currently Research Assistant at the Spatial Economics Department of his alma mater, and aims at pursuing doctoral studies after his graduation next July, thus he will be applying to PhD programmes this coming Fall.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
