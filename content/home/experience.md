@@ -64,6 +64,6 @@ experience:
     description: Developing and applying DNA-based methods for use in
 molecular epidemiology and genetic characterisation of viral infectious diseases (HIV, Influenza and Hepatitis B)
     
-design
+design:
   columns: '2'
 ---
