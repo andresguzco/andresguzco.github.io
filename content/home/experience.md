@@ -53,7 +53,17 @@ experience:
     date_start: '2022-06-01'
     date_end: '2022-08-31'
     description: As part of the team, we continuously tried and implement the newest technologies out there. In my projects, I worked with deep neural networks, NLP and speech recognition.
+
+  - title: Research Assistant
+    company: Laboratorio de Genomica Viral y Humana UASLP
+    company_url: ''
+    company_logo: uaslp
+    location: San Luis Potosi
+    date_start: '2018-01-15'
+    date_end: '2018-07-15'
+    description: Developing and applying DNA-based methods for use in
+molecular epidemiology and genetic characterisation of viral infectious diseases (HIV, Influenza and Hepatitis B)
     
-design:
+design
   columns: '2'
 ---
