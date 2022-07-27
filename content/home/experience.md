@@ -22,13 +22,22 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
+  -  title: Global Sector Research Intern
+    company: ING
+    company_url: 'https://research.ing.com/'
+    company_logo: org-x
+    location: Amsterdam
+    date_start: '2022-09-01'
+    date_end: '2023-02-28'
+    description: Provide direct support to senior Credit research & strategy colleagues with the aim to constantly improve the product range, investor presentations, and run quantitative tasks.
+    
+  - title: Research Assistant
+    company: Spatial Economics Department, Vrije Universiteit Amsterdam
+    company_url: 'https://spatialeconomics.nl/en/'
     company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+    location: San Luis Potosi
+    date_start: '2022-04-01'
+    date_end: 'Ongoing'
     description: |2-
         Responsibilities include:
         
@@ -36,15 +45,15 @@ experience:
         * Modelling
         * Deploying
 
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
+  - title: Student Researcher
+    company: Bit
+    company_url: 'https://wearebit.com/'
     company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
-
+    location: Amsterdam
+    date_start: '2022-06-01'
+    date_end: '2022-08-31'
+    description: As part of the team, we continuously tried and implement the newest technologies out there. In my projects, I worked with deep neural networks, NLP and speech recognition.
+    
 design:
   columns: '2'
 ---
