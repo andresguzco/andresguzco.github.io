@@ -28,20 +28,10 @@ content:
   email: andres@andresguzco.com
   phone: +31 (0) 6 14 34 4290
   address:
-    street: Amstelveenseweg 728B
     city: Amsterdam
     region: Noord-Holland
-    postcode: 1081jK
     country: The Netherlands
     country_code: NL
-  coordinates:
-    latitude: '37.4275'
-    longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-  office_hours:
-    - 'Monday 10:00 to 13:00'
-    - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com'
   contact_links:
     - icon: linkedin
       icon_pack: fab
