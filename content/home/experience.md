@@ -34,7 +34,7 @@ experience:
   - title: Research Assistant
     company: Spatial Economics Department, Vrije Universiteit Amsterdam
     company_url: 'https://spatialeconomics.nl/en/'
-    company_logo: org-gc
+    company_logo: bit
     location: San Luis Potosi
     date_start: '2022-04-01'
     date_end: ''
