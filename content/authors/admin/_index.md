@@ -18,7 +18,7 @@ bio: My overarching research interest is the application of mathematical, statis
 
 # Interests to show in About widget
 interests:
-  - Ecomometrics
+  - Econometrics
   - Machine Learning
   - Causal Inference
   - Economic Theory
