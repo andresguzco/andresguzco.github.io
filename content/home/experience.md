@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  -  title: Global Sector Research Intern
+  - title: Global Sector Research Intern
     company: ING
     company_url: 'https://research.ing.com/'
     company_logo: org-x
