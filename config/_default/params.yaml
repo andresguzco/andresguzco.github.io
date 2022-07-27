@@ -61,14 +61,14 @@ locale:
 
 features:
   syntax_highlighter:
-    enable: false
+    enable: true
     extra_languages:
       - r
       - latex
   math:
     enable: false
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/<username>/<repository>'
     content_dir: content
@@ -80,7 +80,7 @@ features:
     provider: ''
     disqus:
       shortname: ''
-      show_count: false
+      show_count: true
     commento:
       url: ''
   search:
@@ -102,7 +102,7 @@ extensions:
     branch: main
     local_backend: false
   academicons:
-    enable: false
+    enable: true
 
 # Security
 
