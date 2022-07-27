@@ -28,7 +28,7 @@ experience:
     company_logo: ing
     location: Amsterdam
     date_start: '2022-09-01'
-    date_end: '2023-02-28'
+    date_end: ''
     description: Provide direct support to senior Credit research & strategy colleagues with the aim to constantly improve the product range, investor presentations, and run quantitative tasks.
     
   - title: Research Assistant
