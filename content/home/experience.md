@@ -37,7 +37,7 @@ experience:
     company_logo: org-gc
     location: San Luis Potosi
     date_start: '2022-04-01'
-    date_end: 'Ongoing'
+    date_end: ''
     description: |2-
         Responsibilities include:
         
