@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Andres Guzco. This work is licensed under {license}'
+    notice: '© {year} Andres Guzco.'
     license:
       enable: true
       allow_derivatives: false
