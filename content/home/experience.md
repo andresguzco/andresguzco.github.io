@@ -25,7 +25,7 @@ experience:
   - title: Global Sector Research Intern
     company: ING
     company_url: 'https://research.ing.com/'
-    company_logo: org-x
+    company_logo: ing
     location: Amsterdam
     date_start: '2022-09-01'
     date_end: '2023-02-28'
