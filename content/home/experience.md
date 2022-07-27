@@ -34,7 +34,7 @@ experience:
   - title: Research Assistant
     company: Spatial Economics Department, Vrije Universiteit Amsterdam
     company_url: 'https://spatialeconomics.nl/en/'
-    company_logo: bit
+    company_logo: vu
     location: San Luis Potosi
     date_start: '2022-04-01'
     date_end: ''
@@ -48,7 +48,7 @@ experience:
   - title: Student Researcher
     company: Bit
     company_url: 'https://wearebit.com/'
-    company_logo: vu
+    company_logo: bit
     location: Amsterdam
     date_start: '2022-06-01'
     date_end: '2022-08-31'
