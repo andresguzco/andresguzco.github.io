@@ -23,30 +23,22 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.coursera.org
-    date_end: ''
-    date_start: '2021-01-25'
-    description: ''
-    organization: Coursera
+  - certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/FLY3AG2B6HFW
+    date_end: '2022-07-20'
+    date_start: '2022-01-25'
+    description: 'Master the key steps involved in tackling a data science problem and learn to follow a methodology to think and work like a Data Scientist. Apply various Data Science and Machine Learning skills, techniques, and tools to complete a project and publish a report.'
+    organization: IBM
     organization_url: https://www.coursera.org
-    title: Neural Networks and Deep Learning
-    url: ''
-  - certificate_url: https://www.edx.org
-    date_end: ''
-    date_start: '2021-01-01'
-    description: Formulated informed blockchain models, hypotheses, and use cases.
-    organization: edX
-    organization_url: https://www.edx.org
-    title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  - certificate_url: https://www.datacamp.com
-    date_end: '2020-12-21'
-    date_start: '2020-07-01'
-    description: ''
-    organization: DataCamp
-    organization_url: https://www.datacamp.com
-    title: 'Object-Oriented Programming in R'
-    url: ''
+    title: IBM Data Science Professional Certificate
+    url: https://www.edx.org/professional-certificate/ibm-data-science?index=product&queryID=a43d7fb9eab49b70fe652fa04149696a&position=1&linked_from=autocomplete
+  - certificate_url: [TBD]
+    date_end: '2022-07-27'
+    date_start: '2022-07-01'
+    description: Introduction to modern machine learning, including supervised learning (multiple linear regression, logistic regression, neural networks, and decision trees) and unsupervised learning (clustering, dimensionality reduction, recommender systems).
+    organization: Stanford University
+    organization_url: https://www.stanford.edu
+    title: Machine Learning
+    url: https://www.coursera.org/specializations/machine-learning-introduction?
 
 design:
   columns: '2'
