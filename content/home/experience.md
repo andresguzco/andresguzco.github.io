@@ -61,8 +61,7 @@ experience:
     location: San Luis Potosi
     date_start: '2018-01-15'
     date_end: '2018-07-15'
-    description: Developing and applying DNA-based methods for use in
-molecular epidemiology and genetic characterisation of viral infectious diseases (HIV, Influenza and Hepatitis B)
+    description: Developing and applying DNA-based methods for use in molecular epidemiology and genetic characterisation of viral infectious diseases (HIV, Influenza and Hepatitis B).
     
 design:
   columns: '2'
