@@ -25,7 +25,7 @@ experience:
   - title: Global Sector Research Intern
     company: ING
     company_url: 'https://research.ing.com/'
-    company_logo: ing.svg
+    company_logo: ing
     location: Amsterdam
     date_start: '2022-09-01'
     date_end: '2023-02-28'
@@ -34,7 +34,7 @@ experience:
   - title: Research Assistant
     company: Spatial Economics Department, Vrije Universiteit Amsterdam
     company_url: 'https://spatialeconomics.nl/en/'
-    company_logo: bit.svg
+    company_logo: bit
     location: San Luis Potosi
     date_start: '2022-04-01'
     date_end: ''
@@ -48,7 +48,7 @@ experience:
   - title: Student Researcher
     company: Bit
     company_url: 'https://wearebit.com/'
-    company_logo: org-x
+    company_logo: vu
     location: Amsterdam
     date_start: '2022-06-01'
     date_end: '2022-08-31'
