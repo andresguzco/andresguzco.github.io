@@ -35,7 +35,7 @@ experience:
     company: Spatial Economics Department, Vrije Universiteit Amsterdam
     company_url: 'https://spatialeconomics.nl/en/'
     company_logo: vu
-    location: San Luis Potosi
+    location: Amsterdam
     date_start: '2022-04-01'
     date_end: ''
     description: |2-
