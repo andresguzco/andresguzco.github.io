@@ -38,12 +38,7 @@ experience:
     location: Amsterdam
     date_start: '2022-04-01'
     date_end: ''
-    description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
+    description: Research on projects such as Applied Spatial General Equilibrium Models. Wrote a paper on the analysis of commuting dynamics in The Netherlands.
 
   - title: Student Researcher
     company: Bit
