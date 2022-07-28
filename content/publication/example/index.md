@@ -1,5 +1,5 @@
 ---
-  title: 'Suburbanites: Analysing the Evolution of Commuting Dynamics in The Netherlands'
+title: 'Suburbanites: Analysing the Evolution of Commuting Dynamics in The Netherlands'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -9,7 +9,7 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - ''
+  - 'Total Contribution'
 
 date: '2022-06-24T08:05:12Z'
 doi: ''
@@ -24,8 +24,8 @@ publishDate: '2022-07-27T09:10:01Z'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: To be determined
-publication_short: TBD
+publication: In VU Website
+publication_short: In VU
 
 abstract: Commuting is generally perceived as a necessary evil. Lying at the intersection of two different areas of economics, labour and urban, we find a complex system that interweaves housing and work locations. This paper studies the evolution of the transport behaviour of commuting agents in the last decade to observe the distribution of employees and employers. We also ascertain the presence of the COVID-19 effect on commuting behaviour, estimate its impact and provide an analysis of its implication. Stemming out of these objectives, we make use of spatial panel data from The Netherlands over the last decade. The gravity model of migration was chosen to perform this analysis. It was found that the previously observed trends have not been exacerbated nor slowed by the COVID-19 pandemic. Overall, a dispersion dynamic has been observed where agents have either relocated or changed jobs. Furthermore, the distance decay has been increasing, corroborating the dispersion phenomenon. Therefore, the pape provides a brief introduction to the analysis of distance decay regarding commuTing behaviour in The Netherlands. Thereby, leaving the use of advanced panel data models to account for the time and spatial lags yet to come.
 
@@ -54,7 +54,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: ''
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
 
@@ -73,5 +73,13 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
+{{% callout note %}}
+Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
+
+{{% callout note %}}
+Create your slides in Markdown - click the _Slides_ button to check out the example.
+{{% /callout %}}
+
 
 Commuting is generally perceived as a necessary evil. Lying at the intersection of two different areas of economics, labour and urban, we find a complex system that interweaves housing and work locations. This paper studies the evolution of the transport behaviour of commuting agents in the last decade to observe the distribution of employees and employers. We also ascertain the presence of the COVID-19 effect on commuting behaviour, estimate its impact and provide an analysis of its implication. Stemming out of these objectives, we make use of spatial panel data from The Netherlands over the last decade. The gravity model of migration was chosen to perform this analysis. It was found that the previously observed trends have not been exacerbated nor slowed by the COVID-19 pandemic. Overall, a dispersion dynamic has been observed where agents have either relocated or changed jobs. Furthermore, the distance decay has been increasing, corroborating the dispersion phenomenon. Therefore, the pape provides a brief introduction to the analysis of distance decay regarding commuTing behaviour in The Netherlands. Thereby, leaving the use of advanced panel data models to account for the time and spatial lags yet to come.
