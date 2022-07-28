@@ -32,7 +32,7 @@ abstract: Commuting is generally perceived as a necessary evil. Lying at the int
 # Summary. An optional shortened abstract.
 summary: This paper is a work in progress. What you see now is the final version that I developed as my final paper for my second year of my BSc in Economics, however, I am expanding this work on my Research Assistantship at the Spatial Economics department of the VU Amsterdam.
 
-tags: [Urban Economics]
+tags: ['Urban Economics']
 
 # Display this page in the Featured widget?
 featured: true
@@ -64,14 +64,14 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - suburbanites
+  - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: suburbanites
+slides: example
 ---
 
 Commuting is generally perceived as a necessary evil. Lying at the intersection of two different areas of economics, labour and urban, we find a complex system that interweaves housing and work locations. This paper studies the evolution of the transport behaviour of commuting agents in the last decade to observe the distribution of employees and employers. We also ascertain the presence of the COVID-19 effect on commuting behaviour, estimate its impact and provide an analysis of its implication. Stemming out of these objectives, we make use of spatial panel data from The Netherlands over the last decade. The gravity model of migration was chosen to perform this analysis. It was found that the previously observed trends have not been exacerbated nor slowed by the COVID-19 pandemic. Overall, a dispersion dynamic has been observed where agents have either relocated or changed jobs. Furthermore, the distance decay has been increasing, corroborating the dispersion phenomenon. Therefore, the pape provides a brief introduction to the analysis of distance decay regarding commuTing behaviour in The Netherlands. Thereby, leaving the use of advanced panel data models to account for the time and spatial lags yet to come.

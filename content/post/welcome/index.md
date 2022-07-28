@@ -31,11 +31,10 @@ authors:
   - admin
 
 tags:
-  - Academic
-  - Urban Economics
+  - ''
 
 categories:
-  - Working Papers
+  - Personal
 
 ## Overview
 ---
