@@ -56,7 +56,7 @@ experience:
     location: San Luis Potosi
     date_start: '2018-08-15'
     date_end: '2019-06-15'
-    description: Responsibilities included: to obtain medical history and make initial physical examination of patients, document that on the patients file, record provisional diagnosis , suggest primary investigations and treatment plan provided that the treatment plan is discussed and approved by a senior team member. Rotations through the Department of Internal Medicine, Pathology, Infectiology, Family Medicine, Cardiology and Neurology.
+    description: Responsibilities included to obtain medical history and make initial physical examination of patients, document that on the patients file, record provisional diagnosis , suggest primary investigations and treatment plan provided that the treatment plan is discussed and approved by a senior team member. Rotations through the Department of Internal Medicine, Pathology, Infectiology, Family Medicine, Cardiology and Neurology.
 .
   - title: Research Assistant
     company: Laboratorio de Genomica Viral y Humana UASLP
