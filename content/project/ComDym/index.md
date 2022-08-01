@@ -2,7 +2,7 @@
 title: Project ComDym
 summary: Practical aspect of the paper 'Suburbanites'
 tags:
-  - Urban Economics
+  - Economics
 date: '2022-06-30T012:12:12Z'
 
 # Optional external URL for project (replaces project detail page).
