@@ -29,7 +29,7 @@ content:
       tag: '*'
     - name: Machine Learning
       tag: Machine Learning
-    - name: Economics/Econometrics
+    - name: Economics
       tag: Economics
 
 design:

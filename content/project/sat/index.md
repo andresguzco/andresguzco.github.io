@@ -3,7 +3,7 @@ title: Project Satellite
 summary: Satellite imagery recognition for Economic applications
 tags:
   - Machine Learning
-  - Economics/Econometrics
+  - Economics
 date: '2022-06-17T012:12:12Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -28,6 +28,6 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+# slides: example
 ---
 Placeholder text for the upcoming description of the project.
