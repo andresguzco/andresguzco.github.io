@@ -3,7 +3,7 @@ title: Suburbanites
 subtitle: Analysing the Evolution of Commuting Dynamics in The Netherlands
 
 # Summary for listings and search engines
-summary: Commuting is generally perceived as a necessary evil. This pape provides a brief introduction to the analysis of distance decay regarding commuting behaviour in The Netherlands.
+summary: This page is a journal of my development process of the paper 'Suburbanites'
 
 # Link this post with a project
 projects: []
