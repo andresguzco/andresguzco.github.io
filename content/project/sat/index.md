@@ -1,9 +1,10 @@
 ---
-title: Project Eisman
-summary: Deep learning for portfolio management
+title: Project Satellite
+summary: Satellite imagery recognition for Economic applications
 tags:
-  - Deep Learning
-date: '2022-06-10T012:12:12Z'
+  - Machine Learning
+  - Economics/Econometrics
+date: '2022-06-17T012:12:12Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -16,7 +17,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Explore the code
-    url: https://github.com/AGLamb/Project-Eisman
+    url: https://github.com/AGLamb/Project-Sat
 url_code: ''
 url_pdf: ''
 url_slides: ''
