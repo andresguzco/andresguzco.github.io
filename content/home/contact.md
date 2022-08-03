@@ -17,7 +17,7 @@ content:
 
   # Email form provider
   form:
-    provider: Google
+    provider: netlify
     formspree:
       id:
     netlify:
