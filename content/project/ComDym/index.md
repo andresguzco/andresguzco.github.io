@@ -16,7 +16,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Explore the code
-    url: https://github.com/AGLamb/Project-ComDym
+    url: https://github.com/AGLamb/RA/tree/main/Research%20Paper
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -29,4 +29,4 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
-Placeholder text for the upcoming description of the project.
+This project revolves around the expansion of my research paper on the analysis of commuting dynamics in The Netherlands.
