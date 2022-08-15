@@ -3,7 +3,7 @@ title: Welcome, let me introduce myself
 subtitle: ''
 
 # Summary for listings and search engines
-summary: Brief introduction into who I am and what I do.
+summary: Brief introduction to who I am and what I do.
 # Link this post with a project
 projects: []
 
