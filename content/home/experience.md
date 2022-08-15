@@ -40,7 +40,7 @@ experience:
     date_end: ''
     description: Research on projects such as Applied Spatial General Equilibrium Models. Wrote a paper on the analysis of commuting dynamics in The Netherlands.
 
-  - title: Student Researcher
+  - title: Researcher
     company: Bit
     company_url: 'https://wearebit.com/'
     company_logo: bit
