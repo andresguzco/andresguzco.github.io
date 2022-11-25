@@ -22,14 +22,32 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: ALM Model Developement Inter
+    company: ING
+    company_url: 'https://research.ing.com/'
+    company_logo: ing
+    location: Amsterdam
+    date_start: '2023-03-01'
+    date_end: '2023-08-31'
+    description: Responsible to ensure ALM models lead to a stable Net Interest Income and accurate capital requirements. The models are largely dependent on client behaviour, so I monitor and model the behaviour and spot emerging trends using big data analytics.
+
   - title: Global Sector Research Intern
     company: ING
     company_url: 'https://research.ing.com/'
     company_logo: ing
     location: Amsterdam
     date_start: '2022-09-01'
-    date_end: ''
+    date_end: '2023-02-28'
     description: Provide direct support to senior Credit research & strategy colleagues with the aim to constantly improve the product range, investor presentations, and run quantitative tasks.
+
+  - title: Research Assistant
+    company: Econometrics and Data Science Department, Vrije Universiteit Amsterdam
+    company_url: 'https://vu.nl/en/about-vu/faculties/school-of-business-and-economics/departments/econometrics-and-data-science'
+    company_logo: vu
+    location: Amsterdam
+    date_start: '2022-10-01'
+    date_end: ''
+    description: .
 
   - title: Research Assistant
     company: Spatial Economics Department, Vrije Universiteit Amsterdam
