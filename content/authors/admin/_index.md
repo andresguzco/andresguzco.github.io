@@ -14,14 +14,14 @@ organizations:
     url: https://www.vu.nl/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My overarching research interest is the application of mathematical, statistical and computational methods to identify causality in economic phenomena. This includes the study of dynamical systems, machine learning, experimental design and the implementation of research tools. 
+bio: From medicine to applied mathematics, I'm a die-hard empiricist studying how economics, mathematics and computer science help us understand and model human behaviour.
 
 # Interests to show in About widget
 interests:
-  - Econometrics
+  - Econometrics/Statistics
   - Machine Learning
   - Causal Inference
-  - Economic Theory
+  - Dynamical Systems
 
 # Education to show in About widget
 education:
@@ -62,6 +62,6 @@ email: ''
 highlight_name: true
 ---
 
-Andres Guzman Cordero is a student of Economics and Econometrics at the Vrije Universiteit Amsterdam. His overarching research interest is the application of mathematical, statistical and computational methods to identify causality in economic phenomena. This includes the study of dynamical systems, machine learning, experimental design and the implementation of research tools. He is currently a Research Assistant at the Spatial Economics Department of his alma mater, and a Global Sector Research Intern at the Economic Research Department of ING. He aims to pursue doctoral studies after his graduation next July, thus he will be applying to MPhil/PhD programmes this coming Fall.
+From medicine to applied mathematics, I'm a die-hard empiricist studying how economics, mathematics and computer science help us understand and model human behaviour. My current research interests are non-linear dynamical systems, robust machine learning, signal processing and control theory with their application to economic and financial systems. I have over a year of experience with probabilistic modelling in consulting and finance.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.

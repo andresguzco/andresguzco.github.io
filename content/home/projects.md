@@ -1,48 +1,77 @@
----
-# An instance of the Portfolio widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: portfolio
+[comment]: <> (---)
 
-# This file represents a page section.
-headless: true
+[comment]: <> (# An instance of the Portfolio widget.)
 
-# Order that this section appears on the page.
-weight: 65
+[comment]: <> (# Documentation: https://wowchemy.com/docs/page-builder/)
 
-title: Projects
-subtitle: ''
+[comment]: <> (widget: portfolio)
 
-content:
-  # Page type to display. E.g. project.
-  page_type: project
+[comment]: <> (# This file represents a page section.)
 
-  # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-  filter_default: 0
+[comment]: <> (headless: true)
 
-  # Filter toolbar (optional).
-  # Add or remove as many filters (`filter_button` instances) as you like.
-  # To show all items, set `tag` to "*".
-  # To filter by a specific tag, set `tag` to an existing tag name.
-  # To remove the toolbar, delete the entire `filter_button` block.
-  filter_button:
-    - name: All
-      tag: '*'
-    - name: Machine Learning
-      tag: Machine Learning
-    - name: Economics
-      tag: Economics
+[comment]: <> (# Order that this section appears on the page.)
 
-design:
-  # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '2'
+[comment]: <> (weight: 65)
 
-  # Toggle between the various page layout types.
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   5 = Showcase
-  view: 2
+[comment]: <> (title: Projects)
 
-  # For Showcase view, flip alternate rows?
-  flip_alt_rows: false
----
+[comment]: <> (subtitle: '')
+
+[comment]: <> (content:)
+
+[comment]: <> (  # Page type to display. E.g. project.)
+
+[comment]: <> (  page_type: project)
+
+[comment]: <> (  # Default filter index &#40;e.g. 0 corresponds to the first `filter_button` instance below&#41;.)
+
+[comment]: <> (  filter_default: 0)
+
+[comment]: <> (  # Filter toolbar &#40;optional&#41;.)
+
+[comment]: <> (  # Add or remove as many filters &#40;`filter_button` instances&#41; as you like.)
+
+[comment]: <> (  # To show all items, set `tag` to "*".)
+
+[comment]: <> (  # To filter by a specific tag, set `tag` to an existing tag name.)
+
+[comment]: <> (  # To remove the toolbar, delete the entire `filter_button` block.)
+
+[comment]: <> (  filter_button:)
+
+[comment]: <> (    - name: All)
+
+[comment]: <> (      tag: '*')
+
+[comment]: <> (    - name: Machine Learning)
+
+[comment]: <> (      tag: Machine Learning)
+
+[comment]: <> (    - name: Economics)
+
+[comment]: <> (      tag: Economics)
+
+[comment]: <> (design:)
+
+[comment]: <> (  # Choose how many columns the section has. Valid values: '1' or '2'.)
+
+[comment]: <> (  columns: '2')
+
+[comment]: <> (  # Toggle between the various page layout types.)
+
+[comment]: <> (  #   1 = List)
+
+[comment]: <> (  #   2 = Compact)
+
+[comment]: <> (  #   3 = Card)
+
+[comment]: <> (  #   5 = Showcase)
+
+[comment]: <> (  view: 2)
+
+[comment]: <> (  # For Showcase view, flip alternate rows?)
+
+[comment]: <> (  flip_alt_rows: false)
+
+[comment]: <> (---)

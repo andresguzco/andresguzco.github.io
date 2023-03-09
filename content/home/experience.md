@@ -22,23 +22,23 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: ALM Model Developement Inter
+  - title: Quantitative Analyst - Model Development
     company: ING
-    company_url: 'https://research.ing.com/'
+    company_url: 'https://ing.com/'
     company_logo: ing
     location: Amsterdam
     date_start: '2023-03-01'
-    date_end: '2023-08-31'
-    description: Responsible to ensure ALM models lead to a stable Net Interest Income and accurate capital requirements. The models are largely dependent on client behaviour, so I monitor and model the behaviour and spot emerging trends using big data analytics.
+    date_end: ''
+    description: Responsible for developing models that are deeply integrated in the business model (pricing, hedging, funding) and have impacts across global balance sheet (Net Interest Income, Economic Value and Capital Requirements). The ALM models cover global customer lending products (e.g. mortgages, Wholesale Banking, mid-corps and SME Lending) and global customer deposits products (current accounts, savings).
 
-  - title: Global Sector Research Intern
+  - title: Quantitative Analyst - Credit Strategy
     company: ING
     company_url: 'https://research.ing.com/'
     company_logo: ing
     location: Amsterdam
     date_start: '2022-09-01'
     date_end: '2023-02-28'
-    description: Provide direct support to senior Credit research & strategy colleagues with the aim to constantly improve the product range, investor presentations, and run quantitative tasks.
+    description: Work on quantitative research and model development for the Credit Research team. My main task is to measure tangible and invisible phenomena using numeric data, which I then analyze in order to draw meaningful and possibly novel conclusions. Based on these conclusions, I design and implement economtric/statistical models that accurately forecast financial opportunities.
 
   - title: Research Assistant
     company: Econometrics and Data Science Department, Vrije Universiteit Amsterdam
@@ -47,7 +47,7 @@ experience:
     location: Amsterdam
     date_start: '2022-10-01'
     date_end: ''
-    description: .
+    description: Research on statistical methods to forecast and backcast particle movements throughout space and time.
 
   - title: Research Assistant
     company: Spatial Economics Department, Vrije Universiteit Amsterdam
@@ -74,7 +74,7 @@ experience:
     location: San Luis Potosi
     date_start: '2018-08-15'
     date_end: '2019-06-15'
-    description: Responsibilities included to obtain medical history and make initial physical examination of patients, document that on the patients file, record provisional diagnosis , suggest primary investigations and treatment plan provided that the treatment plan is discussed and approved by a senior team member. Rotations through the Department of Internal Medicine, Pathology, Infectiology, Family Medicine, Cardiology and Neurology.
+    description: Responsibilities included to obtain medical history and make initial physical examination of patients, document that on the patients file, record provisional diagnosis, suggest primary investigations and treatment plan provided that the treatment plan is discussed and approved by a senior team member. Rotations through the Department of Internal Medicine, Pathology, Infectology, Family Medicine, Cardiology and Neurology.
 
   - title: Research Assistant
     company: Laboratorio de Genomica Viral y Humana UASLP
@@ -83,7 +83,7 @@ experience:
     location: San Luis Potosi
     date_start: '2018-01-15'
     date_end: '2018-07-15'
-    description: Developing and applying DNA-based methods for use in molecular epidemiology and genetic characterisation of viral infectious diseases (HIV, Influenza and Hepatitis B).
+    description: Developing and applying DNA-based methods for use in molecular epidemiology and genetic characterisation of viral infectious diseases (HIV, Influenza and Hepatitis B). Genome-wide data analysis.
 
 design:
   columns: '2'
