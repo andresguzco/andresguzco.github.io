@@ -26,6 +26,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: MPhil in Statistical Machine Learning
+      institution: Tinbergen Institute
+      year: 2023 - 2025
     - course: BSc in Economics and Econometrics
       institution: Vrije Universiteit Amsterdam
       year: 2020 - 2023
