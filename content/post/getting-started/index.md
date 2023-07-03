@@ -15,7 +15,7 @@ date: '2022-06-24T00:00:00Z'
 lastmod: '2022-06-24T00:00:00Z'
 
 # Is this an unpublished draft?
-draft: false
+draft: True
 
 # Show this page in the Featured widget?
 featured: false
@@ -40,7 +40,8 @@ categories:
 
 ## Overview
 ---
-This project started on the first week of June 2022. I had to develop a proper research paper on a teams of 3-4 students. While this sounded exciting, I already had experience writing scientific papers from my medical school times, therefore I had the idea to do a paper on my own. I understood that it would involve a significantly higher workload because the paper was due in less that 4 weeks. Nonetheless, I always like a challenge so I decided to walk down this path. After proposing this to my supervisor, which happened to be also my supervisor at the Research Assistantship, he agreed and encouraged me to undertake this upcoming project. To explain where the idea was born, I have to backtrack and give some insight on my work at the Spatial Economics Department from the Vrije Universiteit Amsterdam, my alma mater.
+This project started on the first week of June 2022. I had to develop a proper research paper on a teams of 3-4 
+students. While this sounded exciting, I already had experience writing scientific papers from my medical school times, therefore I had the idea to do a paper on my own. I understood that it would involve a significantly higher workload because the paper was due in less that 4 weeks. Nonetheless, I always like a challenge so I decided to walk down this path. After proposing this to my supervisor, which happened to be also my supervisor at the Research Assistantship, he agreed and encouraged me to undertake this upcoming project. To explain where the idea was born, I have to backtrack and give some insight on my work at the Spatial Economics Department from the Vrije Universiteit Amsterdam, my alma mater.
 
 I was captivated by Regional and Urban Economics during the Fall semester of 2021, I found the incorporation of the spatial aspect, with emphasis on distance, a very interesting addition to economic analysis. Economics tends to dispense of many of the real-world variables by making some reasonable yet oversimplifying assumptions in order to make modelling the phenomena feasible. While undergraduate Economics is taught in this fashion, most fields of graduate Economics have become 'harder' in the last decades, now it's almost necessary to be acquainted with Real Analysis, Ordinary and Differential Equations, and rigorous Probability and Statistics to pursue a research career. This simple yet beautiful addition of spatial variables to models, sparked in my mind many questions and ideas. I was even more intrigued when we started learning about the application of the gravity model to international trade and migration, what I later discovered to be a part of Econophysics. It wasn't long before I was approaching my Professor to ask for RA opportunities with him, especially since I was already decided on pursuing an academic career in Economics (the main reason behind the existence of this website).
 
