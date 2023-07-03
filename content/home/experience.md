@@ -46,7 +46,7 @@ experience:
     company_logo: vu
     location: Amsterdam
     date_start: '2022-10-01'
-    date_end: ''
+    date_end: '2023-06-30'
     description: Research on statistical methods to forecast and backcast particle movements throughout space and time.
 
   - title: Research Assistant
@@ -55,7 +55,7 @@ experience:
     company_logo: vu
     location: Amsterdam
     date_start: '2022-04-01'
-    date_end: ''
+    date_end: '2023-06-30'
     description: Research on projects such as Applied Spatial General Equilibrium Models. Wrote a paper on the analysis of commuting dynamics in The Netherlands.
 
   - title: Researcher
