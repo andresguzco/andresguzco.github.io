@@ -6,12 +6,12 @@ title: Andres Guzman C
 superuser: true
 
 # Role/position/tagline
-role: BSc in Economics and Econometrics
+role: Quantitative Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Vrije Universiteit Amsterdam
-    url: https://www.vu.nl/
+  - name: Tinbergen Institute/ING
+    url: https://www.businessdatascience.nl/
 
 # Short bio (displayed in user profile at end of posts)
 bio: From medicine to applied mathematics, I'm a die-hard empiricist studying how economics, mathematics and computer science help us understand and model human behaviour.
