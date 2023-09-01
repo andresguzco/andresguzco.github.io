@@ -38,7 +38,7 @@ experience:
     location: Amsterdam
     date_start: '2022-10-01'
     date_end: '2023-06-30'
-    description: Research on statistical methods to forecast and backcast particle movements throughout space and time. Research on projects such as Applied Spatial General Equilibrium Models. Wrote a paper on the analysis of commuting dynamics in The Netherlands.
+    description: Research on statistical methods to forecast and backcast particle movements throughout space and time, Applied Spatial General Equilibrium Models, and the analysis of commuting dynamics in The Netherlands.
 
   - title: Researcher
     company: Bit
@@ -47,7 +47,7 @@ experience:
     location: Amsterdam
     date_start: '2022-06-01'
     date_end: '2022-08-31'
-    description: As part of the team, we continuously tried and implement the newest technologies out there. In my projects, I worked with deep neural networks, NLP and speech recognition.
+    description: Research on deep neural networks, NLP and speech recognition, digital twins and more; with their applications to solve our client's needs
 
   - title: Medical Intern
     company: Universidad Autonoma de San Luis Potosi / Hospital Central
@@ -56,7 +56,7 @@ experience:
     location: San Luis Potosi
     date_start: '2018-08-15'
     date_end: '2019-06-15'
-    description: Responsibilities included to obtain medical history and make initial physical examination of patients, document that on the patients file, record provisional diagnosis, suggest primary investigations and treatment plan provided that the treatment plan is discussed and approved by a senior team member. Rotations through the Department of Internal Medicine, Pathology, Infectology, Family Medicine, Cardiology and Neurology.
+    description: Rotations through the Department of Internal Medicine, Pathology, Infectology, Family Medicine, Cardiology and Neurology.
 
 design:
   columns: '2'
