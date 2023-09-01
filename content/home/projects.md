@@ -2,7 +2,7 @@
 
 [comment]: <> (# An instance of the Portfolio widget.)
 
-[comment]: <> (# Documentation: https://wowchemy.com/docs/page-builder/)
+# Documentation: https://wowchemy.com/docs/page-builder/
 
 [comment]: <> (widget: portfolio)
 
