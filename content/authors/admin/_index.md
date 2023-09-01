@@ -26,10 +26,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: MPhil in Statistical Machine Learning
+    - course: MPhil in Econometrics & Machine Learning
       institution: Tinbergen Institute
       year: 2023 - 2025
-    - course: BSc in Economics and Econometrics
+    - course: BSc in Econometrics & Economics
       institution: Vrije Universiteit Amsterdam
       year: 2020 - 2023
     - course: BSc in Medicine and Surgery (MBBS)
@@ -65,6 +65,7 @@ email: ''
 highlight_name: true
 ---
 
-From medicine to applied mathematics, I'm a die-hard empiricist studying how economics, mathematics and computer science help us understand and model human behaviour. My current research interests are non-linear dynamical systems, robust machine learning, signal processing and control theory with their application to economic and financial systems. I have over a year of experience with probabilistic modelling in consulting and finance.
+From medicine to applied mathematics, I'm a rational skeptic studying how economics, mathematics and computer science 
+help us understand and model human behaviour. My current research interests are non-linear dynamical systems, robust machine learning, signal processing and control theory with their application to economic and financial systems.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
