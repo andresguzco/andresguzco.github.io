@@ -65,7 +65,9 @@ email: ''
 highlight_name: true
 ---
 
-From medicine to applied mathematics, I'm a rational skeptic studying how economics, mathematics and computer science 
-help us understand and model human behaviour. My current research interests are non-linear dynamical systems, robust machine learning, signal processing and control theory with their application to economic and financial systems.
+I'm a rational skeptic studying how economics, mathematics and computer science 
+help us understand and model human behaviour. My current research interests are 
+causal machine learning, agent-based modelling, signal processing and control 
+theory with their application to economic and financial systems.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
