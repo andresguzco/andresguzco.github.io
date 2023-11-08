@@ -27,7 +27,7 @@ experience:
     company_url: 'https://www.tinbergen.nl'
     company_logo: ti
     location: Amsterdam
-    date_start: '2023'
+    date_start: '2023-11-10'
     date_end: ''
     description: Research on a project for non-parametric forecasting of time-varying parameters of environmental variables using neural networks with Prof. Andre Lucas
     
@@ -36,7 +36,7 @@ experience:
     company_url: 'https://www.tinbergen.nl'
     company_logo: ti
     location: Amsterdam
-    date_start: '2023'
+    date_start: '2023-11-15'
     date_end: ''
     description: Working on a project for causal inference with multi-layered random forests and mixture of experts models with Prof. Francisco Blasques and Prof. Siem Jan Koopman.
     
