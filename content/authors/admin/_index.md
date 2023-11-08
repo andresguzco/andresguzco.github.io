@@ -6,11 +6,11 @@ title: Andres Guzman C
 superuser: true
 
 # Role/position/tagline
-role: Quantitative Researcher
+role: Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Tinbergen Institute/ING
+  - name: Tinbergen Institute
     url: https://www.businessdatascience.nl/
 
 # Short bio (displayed in user profile at end of posts)
@@ -26,9 +26,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: MPhil in Econometrics & Machine Learning
+    - course: MPhil/PhD in Econometrics & Machine Learning
       institution: Tinbergen Institute
-      year: 2023 - 2025
+      year: 2023 - 2029
     - course: BSc in Econometrics & Economics
       institution: Vrije Universiteit Amsterdam
       year: 2020 - 2023

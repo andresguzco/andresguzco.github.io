@@ -22,13 +22,33 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Research Assistant
+    company: Tinbergen Institute
+    company_url: 'https://www.tinbergen.nl'
+    company_logo:'ti'
+    location: Amsterdam
+    date_start: '2023'
+    date_end: ''
+    description: Working on a project for non-parametric forecasting of time-varying parameters of environmental 
+    variables using neural networks with Prof. Andre Lucas
+    
+  - title: Research Assistant
+    company: Tinbergen Institute
+    company_url: 'https://www.tinbergen.nl'
+    company_logo: 'ti''
+    location: Amsterdam
+    date_start: '2023'
+    date_end: ''
+    description: Working on a project for causal inference with multi-layered random forests and mixture of experts 
+    models with Prof. Francisco Blasques and Prof. Siem Jan Koopman.
+    
   - title: Quantitative Analyst - Model Developer
     company: ING
     company_url: 'https://ing.com/'
     company_logo: ing
     location: Amsterdam
     date_start: '2022-09-01'
-    date_end: ''
+    date_end: '2023-10-31'
     description: Responsible for developing models that are deeply integrated in the business model (pricing, hedging, funding) and have impacts across global balance sheet (Net Interest Income, Economic Value and Capital Requirements). The ALM models cover global customer lending products (e.g. mortgages, Wholesale Banking, mid-corps and SME Lending) and global customer deposits products (current accounts, savings).
 
   - title: Research Assistant
