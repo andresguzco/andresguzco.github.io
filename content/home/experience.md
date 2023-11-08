@@ -29,8 +29,9 @@ experience:
     location: Amsterdam
     date_start: '2023'
     date_end: ''
-    description: Working on a project for non-parametric forecasting of time-varying parameters of environmental 
-    variables using neural networks with Prof. Andre Lucas
+    description: Research on a project for non-parametric forecasting of time-varying parameters of environmental 
+    variables using 
+    neural networks with Prof. Andre Lucas
     
   - title: Research Assistant
     company: Tinbergen Institute
@@ -39,8 +40,7 @@ experience:
     location: Amsterdam
     date_start: '2023'
     date_end: ''
-    description: Working on a project for causal inference with multi-layered random forests and mixture of experts 
-    models with Prof. Francisco Blasques and Prof. Siem Jan Koopman.
+    description: Working on a project for causal inference with multi-layered random forests and mixture of experts models with Prof. Francisco Blasques and Prof. Siem Jan Koopman.
     
   - title: Quantitative Analyst - Model Developer
     company: ING
