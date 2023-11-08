@@ -25,7 +25,7 @@ experience:
   - title: Research Assistant
     company: Tinbergen Institute
     company_url: 'https://www.tinbergen.nl'
-    company_logo: 'ti'
+    company_logo: ti
     location: Amsterdam
     date_start: '2023'
     date_end: ''
@@ -34,7 +34,7 @@ experience:
   - title: Research Assistant
     company: Tinbergen Institute
     company_url: 'https://www.tinbergen.nl'
-    company_logo: 'ti''
+    company_logo: ti
     location: Amsterdam
     date_start: '2023'
     date_end: ''
