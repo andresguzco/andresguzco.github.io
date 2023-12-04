@@ -47,9 +47,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/AGLamb
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/andresguzco
+#  - icon: linkedin
+#    icon_pack: fab
+#    link: https://www.linkedin.com/in/andresguzco
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,

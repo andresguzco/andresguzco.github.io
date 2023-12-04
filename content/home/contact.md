@@ -32,11 +32,11 @@ content:
     region: Noord-Holland
     country: The Netherlands
     country_code: NL
-  contact_links:
-    - icon: linkedin
-      icon_pack: fab
-      name: Connect with me
-      link: 'https://linkedin.com/in/andresguzco'
+#  contact_links:
+#    - icon: linkedin
+#      icon_pack: fab
+#      name: Connect with me
+#      link: 'https://linkedin.com/in/andresguzco'
 
 design:
   columns: '2'
