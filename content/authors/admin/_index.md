@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Andres Guzman C
+title: Andres Guzman-Cordero
 
 # Is this the primary user of the site?
 superuser: true

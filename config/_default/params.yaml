@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: 'Andres Guzman C'
-    description: 'Andres Guzman C'
+    org_name: 'Andres Guzman-Cordero'
+    description: 'Andres Guzman-Cordero'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Andres Guzco.'
+    notice: '© {year} Andres Guzman-Cordero.'
     license:
       enable: false
       allow_derivatives: false
