@@ -65,10 +65,10 @@ email: ''
 highlight_name: true
 ---
 
-I'm a rational skeptic studying how economics, mathematics and computer science 
-help us understand and model human behaviour. My research interest is twofold, its core concerns the statistical theory 
-for time-series, with emphasis on causal inference, and its connection with non-parametric methods and predictive 
-algorithms. Secondly, I deeply enjoy the application of these methods in economic, environmental, genetic, and sport settings.
+I study the intersection of decision theory, neural-modelling and computational methods. My main research interests are 
+centered around energy-based methods, such as deep Boltzmann machines, in conjunction with stochastic processes 
+like time-series analysis. I deeply enjoy the application of these methods in economic, environmental, 
+genetic, and sport settings.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
   
