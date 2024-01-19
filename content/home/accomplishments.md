@@ -30,7 +30,7 @@ item:
     organization: IBM
     organization_url: https://www.coursera.org
     title: IBM Data Science Professional Certificate
-    url: https://www.edx.org/professional-certificate/ibm-data-science?index=product&queryID=a43d7fb9eab49b70fe652fa04149696a&position=1&linked_from=autocomplete
+    url: https://coursera.org/share/c98ba404fd0917f192e60aecbf85f6a2
   - certificate_url: [TBD]
     date_end: '2022-07-27'
     date_start: '2022-07-01'
@@ -38,7 +38,7 @@ item:
     organization: Stanford University
     organization_url: https://www.stanford.edu
     title: Machine Learning
-    url: https://www.coursera.org/specializations/machine-learning-introduction?
+    url: https://coursera.org/share/25d92028049b3afc3ef88c6968bffe65
 
 design:
   columns: '2'
