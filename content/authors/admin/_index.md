@@ -14,21 +14,24 @@ organizations:
     url: https://www.businessdatascience.nl/
 
 # Short bio (displayed in user profile at end of posts)
-bio: From medicine to applied mathematics, I'm a die-hard empiricist studying how economics, mathematics and computer science help us understand and model human behaviour.
+bio: From medicine to applied mathematics, I'm a die-hard empiricist studying how mathematics and comptuer science can help us develop artificial neural networks for efficeint decision-making.
 
 # Interests to show in About widget
 interests:
-  - Econometrics/Statistics
-  - Machine Learning
-  - Causal Inference
+  - Energy-based models
+  - Mult-agent Reinforcement Learning
+  - Spatiotemporal modelling
   - Dynamical Systems
 
 # Education to show in About widget
 education:
   courses:
-    - course: MPhil/PhD in Econometrics & Machine Learning
+    - course: MSc in Artificial Intelligence
+      institution: University of Amsterdam
+      year: 2024 - 2026
+    - course: MPhil in Econometrics & Data Science
       institution: Tinbergen Institute
-      year: 2023 - 2029
+      year: 2023 - 2025
     - course: BSc in Econometrics & Economics
       institution: Vrije Universiteit Amsterdam
       year: 2020 - 2023
@@ -65,10 +68,7 @@ email: ''
 highlight_name: true
 ---
 
-I study the intersection of decision theory, neural-modelling and computational methods. My main research interests are 
-centered around energy-based methods, such as deep Boltzmann machines, in conjunction with stochastic processes 
-like time-series analysis. I deeply enjoy the application of these methods in economic, environmental, 
-genetic, and sport settings.
+I study the intersection of decision theory and computational methods. My main research interests are centered around energy-based methods, such as deep Boltzmann machines, in conjunction with Markov Decision Processes for multi-agent deep reinforcement learning frameworks. I also deeply enjoy their applications in economic, environmental, genetic, and sport settings.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}curriculum vitae{{< /staticref >}}.
   
