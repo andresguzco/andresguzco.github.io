@@ -25,7 +25,7 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: andres@andresguzco.com
+  email: andresguzco@gmail.com
   phone: +31 (0) 6 14 34 4290
   address:
     city: Amsterdam
