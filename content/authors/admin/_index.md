@@ -29,7 +29,7 @@ education:
     - course: MSc in Artificial Intelligence
       institution: University of Amsterdam
       year: 2024 - 2026
-    - course: MPhil in Econometrics & Data Science
+    - course: MPhil in Econometrics
       institution: Tinbergen Institute
       year: 2023 - 2025
     - course: BSc in Econometrics & Economics
@@ -49,7 +49,7 @@ social:
     link: '/#contact'
   - icon: github
     icon_pack: fab
-    link: https://github.com/AGLamb
+    link: https://github.com/andresguzco
 #  - icon: linkedin
 #    icon_pack: fab
 #    link: https://www.linkedin.com/in/andresguzco
