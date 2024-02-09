@@ -1,6 +1,6 @@
 # main text of home
 title: Andres Guzman-Cordero
-bio: I study the intersection of decision theory and computational methods. My main research interests are centered around energy-based methods, such as deep Boltzmann machines, in conjunction with Markov Decision Processes for multi-agent deep reinforcement learning frameworks. I also deeply enjoy their applications in economic, environmental, genetic, and sport settings.
+bio: (Aspiring) Researcher
 
 # twitter summary info
 description: A personal website to share my CV and portfolio
@@ -21,7 +21,6 @@ resume-external: true
 resume-url: https://google.com/?q=my+resume
 
 url: https://andresguzco.github.io/
-# your url: https://USERNAME.github.io
 
 permalink: /:title/
 
