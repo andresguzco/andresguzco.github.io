@@ -28,7 +28,7 @@ education:
   courses:
     - course: MSc in Artificial Intelligence
       institution: University of Amsterdam
-      year: 2024 - 2026
+      year: 2023 - 2025
     - course: MPhil in Econometrics
       institution: Tinbergen Institute
       year: 2023 - 2025
