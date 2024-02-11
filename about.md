@@ -11,19 +11,18 @@ layout: page
 <ul>
     <li>MSc in Artificial Intelligence, University of Amsterdam, 2023 - 2025</li>
     <li>MPhil in Econometrics, Tinbergen Institute, 2023 - 2025</li>
-    <li>BSc in Econometrics & Economics, Vrije Universiteit Amsterdam, 2020 - 2023</li>
+    <li>BSc in Econometrics & Economics (Honours), Vrije Universiteit Amsterdam, 2020 - 2023</li>
     <li>BSc in Medicine and Surgery (MBBS), Universidad Autonoma de San Luis Potosi, 2016 - 2019</li>
 </ul>
 
 <h2>Experience</h2>
 
 <ul>
-    <li>Research Assistant at <a href="https://www.tinbergen.nl">Tinbergen Institute</a>, Amsterdam (2023-11-10 to present). Research on non-parametric forecasting of time-varying parameters of environmental variables using neural networks with Prof. Andre Lucas.</li>
-    <li>Research Assistant at <a href="https://www.tinbergen.nl">Tinbergen Institute</a>, Amsterdam (2023-11-15 to present). Working on causal inference with multi-layered random forests and mixture of experts models with Prof. Francisco Blasques and Prof. Siem Jan Koopman.</li>
-    <li>Quantitative Analyst - Model Developer at <a href="https://ing.com/">ING</a>, Amsterdam (2022-09-01 to 2023-10-31). Developing models for pricing, hedging, funding, and impacting global balance sheet.</li>
-    <li>Research Assistant at <a href="https://vu.nl/en/about-vu/faculties/school-of-business-and-economics/departments/econometrics-and-data-science">Vrije Universiteit Amsterdam</a>, Amsterdam (2022-10-01 to 2023-06-30). Research on statistical methods for forecasting and backcasting particle movements, Applied Spatial General Equilibrium Models, and analysis of commuting dynamics in The Netherlands.</li>
-    <li>Researcher at <a href="https://wearebit.com/">Bit</a>, Amsterdam (2022-06-01 to 2022-08-31). Research on deep neural networks, NLP, speech recognition, digital twins to solve client's needs.</li>
-    <li>Medical Intern at <a href="https://www.medicina.uaslp.mx/">Universidad Autonoma de San Luis Potosi / Hospital Central</a>, San Luis Potosi (2018-08-15 to 2019-06-15). Rotations through various medical departments.</li>
+    <li>Research Assistant at <a href="https://www.tinbergen.nl">Tinbergen Institute</a>, Amsterdam (2023-11 to present). Research on the estimation of non-linear dynamics in spatiotemporal random processes using neural networks and Extended Kalman Filter, supervised by Prof. Andre Lucas. Currently working on two additional projects under the supervision of Prof. Francisco Blasques and Prof. Siem Jan Koopman: 1) Utilizing multimodal transformers for photovoltaic energy production estimation and forecasting. 2) Developing a multi-layered random forest and mixture of experts model for enhanced causal inference.</li>
+    <li>Model Developer at <a href="https://ing.com/">ING</a>, Amsterdam (2022-09 to 2023-10). Developing models for pricing, hedging, funding, and impacting the risk management framework of the bank.</li>
+    <li>Research Assistant at <a href="https://vu.nl/en/about-vu/faculties/school-of-business-and-economics/departments/econometrics-and-data-science">Vrije Universiteit Amsterdam</a>, Amsterdam (2022-10 to 2023-06). Research on statistical methods for forecasting and backcasting particle movements, Applied Spatial General Equilibrium Models, and commuting dynamics in The Netherlands.</li>
+    <li>Researcher at <a href="https://wearebit.com/">Bit</a>, Amsterdam (2022-06 to 2022-08). Research on neural networks, NLP, and digital twins to solve client's needs.</li>
+    <li>Medical Intern at <a href="https://www.medicina.uaslp.mx/">Universidad Autonoma de San Luis Potosi</a>, San Luis Potosi (2018-01 to 2019-06). Rotations through various medical departments.</li>
 </ul>
 
 <h2>Projects</h2>
