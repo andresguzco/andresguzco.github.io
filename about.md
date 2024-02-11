@@ -24,11 +24,3 @@ layout: page
     <li>Researcher at <a href="https://wearebit.com/">Bit</a>, Amsterdam (2022-06 to 2022-08). Research on neural networks, NLP, and digital twins to solve client's needs.</li>
     <li>Medical Intern at <a href="https://www.medicina.uaslp.mx/">Universidad Autonoma de San Luis Potosi</a>, San Luis Potosi (2018-01 to 2019-06). Rotations through various medical departments.</li>
 </ul>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
