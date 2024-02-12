@@ -9,7 +9,7 @@ layout: page
 <h2>Education</h2>
 
 <ul>
-    <li>MSc in Artificial Intelligence, University of Amsterdam, 2023 - 2025</li>
+    <li>MSc in Artificial Intelligence, University of Amsterdam, 2024 - 2026</li>
     <li>MPhil in Econometrics, Tinbergen Institute, 2023 - 2025</li>
     <li>BSc in Econometrics & Economics (Honours), Vrije Universiteit Amsterdam, 2020 - 2023</li>
     <li>BSc in Medicine and Surgery (MBBS), Universidad Autonoma de San Luis Potosi, 2016 - 2019</li>
