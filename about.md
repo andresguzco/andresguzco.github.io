@@ -18,7 +18,7 @@ layout: page
 <h2>Experience</h2>
 
 <ul>
-    <li> Research Intern at <a href="https://vectorinstitute.ai/">Vector Institute</a>, Toronto (2024-05 to 2024-09). Research unders supervision of Prof. Alán Aspuru-Guzik.</li>
+    <li> Research Intern at <a href="https://vectorinstitute.ai/">Vector Institute</a>, Toronto (2024-05 to 2024-09). Research under supervision of Prof. Alán Aspuru-Guzik.</li>
     <li> Junior Data Scientist at <a href="https://www.datastuff.nl">Data Stuff</a>,  Amsterdam (2024-06 to present). Research and development of causal machine learning models for clients. </li>
     <li>Research Assistant at <a href="https://www.tinbergen.nl">Tinbergen Institute</a>, Amsterdam (2023-11 to present). Research on the estimation of non-linear dynamics in spatiotemporal random processes using neural networks and Extended Kalman Filter, supervised by Prof. Andre Lucas. Currently working on two additional projects under the supervision of Prof. Francisco Blasques and Prof. Siem Jan Koopman: 1) Utilizing multimodal transformers for photovoltaic energy production estimation and forecasting. 2) Developing a multi-layered random forest and mixture of experts model for enhanced causal inference.</li>
     <li>Model Developer at <a href="https://ing.com/">ING</a>, Amsterdam (2022-09 to 2023-10). Developing models for pricing, hedging, funding, and impacting the risk management framework of the bank.</li>
