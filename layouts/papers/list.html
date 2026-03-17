@@ -9,7 +9,7 @@
 {{ range $papers }}
   {{ $years = $years | append .year }}
 {{ end }}
-{{ $years = $years | uniq | sort | reverse }}
+{{ $years = collections.Reverse ($years | uniq | sort) }}
 
 {{ range $year := $years }}
   <h2 class="papers-year">{{ $year }}</h2>
