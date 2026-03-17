@@ -9,14 +9,18 @@ copyright = "&copy; 2026 Andrés Guzmán-Cordero. All rights reserved."
 
   [params.head]
     author = "Andrés Guzmán-Cordero"
-    description = "Personal website of Andres Guzman-Cordero."
-    keywords = ["personal", "website", "blog"]
+    description = "Andrés Guzmán-Cordero — PhD student at Mila working on generative modelling for molecular simulation."
+    keywords = ["Andrés Guzmán-Cordero", "machine learning", "generative modelling", "molecular simulation", "Mila"]
 
   [params.navigation]
     show_navigation = true
 
   [params.footer]
     show_footer = true
+
+  [params.typography]
+    title_font = "Libre Baskerville"
+    body_font = "Libre Baskerville"
 
   [params.colors]
     theme_color = "#333333"

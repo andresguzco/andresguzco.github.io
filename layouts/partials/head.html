@@ -31,18 +31,20 @@
     <meta property="og:title" content="{{ .Site.Title }}" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ .Site.Params.head.description }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/prof_pic.jpeg" />
+    <meta property="og:url" content="{{ .Permalink }}" />
 
-    <!-- Add title for Twitter-->
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.head.description }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}images/prof_pic.jpeg" />
 
     <!-- Define canonical link -->
     <link rel="canonical" href="{{ .Permalink }}">
     
-    <!-- Set favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/favicon/site.webmanifest">
+    <!-- Set favicon -->
+    <link rel="icon" type="image/jpeg" href="/images/icon.jpg">
 
     <!-- Generate CSS file from SCSS and include -->
     {{ $template := resources.Get "styles.scss" }}
