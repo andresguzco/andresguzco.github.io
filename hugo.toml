@@ -19,8 +19,8 @@ copyright = "&copy; 2026 Andrés Guzmán-Cordero. All rights reserved."
     show_footer = true
 
   [params.typography]
-    title_font = "Libre Baskerville"
-    body_font = "Libre Baskerville"
+    title_font = "Space Mono"
+    body_font = "Space Mono"
 
   [params.colors]
     theme_color = "#333333"
