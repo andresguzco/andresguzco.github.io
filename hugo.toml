@@ -1,0 +1,47 @@
+baseURL = "https://andresguzco.github.io/"
+languageCode = "en-us"
+title = "Andres Guzman"
+
+copyright = "&copy; 2026 Andres Guzman. All rights reserved."
+
+[params]
+  mainSections = ["posts"]
+
+  [params.head]
+    author = "Andres Guzman"
+    description = "Personal website of Andres Guzman."
+    keywords = ["personal", "website", "blog"]
+
+  [params.navigation]
+    show_navigation = true
+
+  [params.footer]
+    show_footer = true
+
+  [params.colors]
+    theme_color = "#333333"
+    background_color = "#fcfbf9"
+    text_color = "#333333"
+    link_color = "#60c17d"
+
+  [params.social]
+    [params.social.github]
+      name = "GitHub"
+      class = "fab fa-github"
+      url = "https://github.com/andresguzco"
+      weight = 1
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menus.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.128.0"
