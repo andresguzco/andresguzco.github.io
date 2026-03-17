@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: "landing_page"
-image: "/images/placeholder.png"
+image: "/images/prof_pic.jpeg"
 hide_title: true
 ---
 
