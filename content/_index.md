@@ -5,6 +5,7 @@ image: "/images/placeholder.png"
 hide_title: true
 ---
 
-Welcome! I'm **Andres Guzman**. This is my personal website where I share my work, thoughts, and projects.
+PhD student at [Mila](https://mila.quebec/en), supervised by [Kirill Neklyudov](https://necludov.github.io). 
+My research sits at the intersection of generative modelling and the natural sciences, with a focus on methods for molecular simulation.
 
 Feel free to look around and check out my [posts](/posts/) or learn more [about me](/about/).

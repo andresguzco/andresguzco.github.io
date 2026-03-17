@@ -1,15 +1,15 @@
 baseURL = "https://andresguzco.github.io/"
 languageCode = "en-us"
-title = "Andres Guzman"
+title = "Andr\'es Guzm\'an-Cordero"
 
-copyright = "&copy; 2026 Andres Guzman. All rights reserved."
+copyright = "&copy; 2026 Andr\'es Guzm\'an-Cordero. All rights reserved."
 
 [params]
   mainSections = ["posts"]
 
   [params.head]
-    author = "Andres Guzman"
-    description = "Personal website of Andres Guzman."
+    author = "Andr\'es Guzm\'an-Cordero"
+    description = "Personal website of Andres Guzman-Cordero."
     keywords = ["personal", "website", "blog"]
 
   [params.navigation]
@@ -37,9 +37,14 @@ copyright = "&copy; 2026 Andres Guzman. All rights reserved."
   weight = 1
 
 [[menus.main]]
+  name = "Papers"
+  url = "/papers/"
+  weight = 2
+
+[[menus.main]]
   name = "Posts"
   url = "/posts/"
-  weight = 2
+  weight = 3
 
 [module]
   [module.hugoVersion]

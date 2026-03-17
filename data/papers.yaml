@@ -1,0 +1,30 @@
+- title: "Improving Energy Natural Gradient Descent through Woodbury, Momentum, and Randomization"
+  authors: "Andrés Guzmán-Cordero, Felix Dangel, Gil Goldshlager, Marius Zeinhofer"
+  year: 2025
+  venue: "NeurIPS"
+  url: "https://arxiv.org/abs/2505.12149"
+  pdf: "https://arxiv.org/pdf/2505.12149.pdf"
+  preview: "sphere.png"
+
+- title: "Exponential Family Variational Flow Matching for Tabular Data Generation"
+  authors: "Andrés Guzmán-Cordero, Floor Eijkelboom, Jan-Willem van de Meent"
+  year: 2025
+  venue: "ICML"
+  url: "https://arxiv.org/abs/2506.05940"
+  pdf: "https://arxiv.org/pdf/2506.05940.pdf"
+  preview: "vi.png"
+
+- title: "Spiers Memorial Lecture: How to do impactful research in artificial intelligence for chemistry and materials science"
+  authors: "Austin H. Cheng, Cher Tian Ser, Marta Skreta, Andrés Guzmán-Cordero, Luca Thiede, Andreas Burger, Abdulrahman Aldossary, Shi Xuan Leong, Sergio Pablo-García, Felix Strieth-Kalthoff, Alán Aspuru-Guzik"
+  year: 2025
+  venue: "Faraday Discussions, 256, 10–60"
+  url: "http://dx.doi.org/10.1039/D4FD00153B"
+  doi: "10.1039/D4FD00153B"
+  preview: "faraday.jpg"
+
+- title: "Dimension Debate: Is 3D a Step Too Far for Optimizing Molecules?"
+  authors: "Andrés Guzmán-Cordero, Luca A. Thiede, Gary Tom, Alán Aspuru-Guzik, Felix Strieth-Kalthoff, Agustinus Kristiadi"
+  year: 2024
+  venue: "AI4Mat @ NeurIPS"
+  pdf: "https://openreview.net/pdf?id=AnPEfzBstD"
+  preview: "3dbayes.jpg"

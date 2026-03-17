@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ .Content }}
+
+{{ $papers := site.Data.papers }}
+{{ $years := slice }}
+{{ range $papers }}
+  {{ $years = $years | append .year }}
+{{ end }}
+{{ $years = $years | uniq | sort | reverse }}
+
+{{ range $year := $years }}
+  <h2 class="papers-year">{{ $year }}</h2>
+  {{ range $papers }}
+    {{ if eq .year $year }}
+    <div class="paper">
+      {{ with .preview }}
+      <div class="paper-preview">
+        <img src="/images/papers/{{ . }}" alt="Preview">
+      </div>
+      {{ end }}
+      <div class="paper-info">
+        <div class="paper-title">
+          {{ with .url }}<a href="{{ . }}">{{ end }}
+          {{ .title }}
+          {{ with .url }}</a>{{ end }}
+        </div>
+        <div class="paper-authors">{{ .authors }}</div>
+        <div class="paper-venue">{{ .venue }}</div>
+        <div class="paper-links">
+          {{ with .url }}<a href="{{ . }}">[Link]</a>{{ end }}
+          {{ with .pdf }}<a href="{{ . }}">[PDF]</a>{{ end }}
+          {{ with .doi }}<a href="https://doi.org/{{ . }}">[DOI]</a>{{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ end }}
