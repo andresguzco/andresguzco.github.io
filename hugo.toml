@@ -1,14 +1,14 @@
 baseURL = "https://andresguzco.github.io/"
 languageCode = "en-us"
-title = "Andr\'es Guzm\'an-Cordero"
+title = "Andrés Guzmán-Cordero"
 
-copyright = "&copy; 2026 Andr\'es Guzm\'an-Cordero. All rights reserved."
+copyright = "&copy; 2026 Andrés Guzmán-Cordero. All rights reserved."
 
 [params]
   mainSections = ["posts"]
 
   [params.head]
-    author = "Andr\'es Guzm\'an-Cordero"
+    author = "Andrés Guzmán-Cordero"
     description = "Personal website of Andres Guzman-Cordero."
     keywords = ["personal", "website", "blog"]
 
