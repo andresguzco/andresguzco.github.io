@@ -64,3 +64,6 @@ copyright = "&copy; 2026 Andrés Guzmán-Cordero. All rights reserved."
   [module.hugoVersion]
     extended = true
     min = "0.128.0"
+  [[module.mounts]]
+    source = "images"
+    target = "static/images"
