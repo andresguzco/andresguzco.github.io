@@ -27,6 +27,7 @@ copyright = "&copy; 2026 Andrés Guzmán-Cordero. All rights reserved."
     background_color = "#fcfbf9"
     text_color = "#333333"
     link_color = "#60c17d"
+    nav_color = "#5b2c82"
 
   [params.social]
     [params.social.email]

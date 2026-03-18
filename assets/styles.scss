@@ -10,6 +10,7 @@ $body-font: {{ .Site.Params.typography.body_font | default "Source Sans Pro" }};
 $background-color: {{ .Site.Params.colors.background_color | default "#fcfbf9" }};
 $text-color: {{ .Site.Params.colors.text_color | default "#333333" }};
 $link-color: {{ .Site.Params.colors.link_color | default "#60c17d" }};
+$nav-color: {{ .Site.Params.colors.nav_color | default "#5b2c82" }};
 
 
 

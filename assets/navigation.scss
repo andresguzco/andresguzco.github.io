@@ -9,7 +9,7 @@ nav {
 
 nav a {
     display: inline-block;
-    color: $link-color;
+    color: $nav-color;
     text-decoration: none;
 }
 
@@ -19,7 +19,7 @@ nav a::after {
     display: block;
     width: 0;
     height: 4px;
-    background: $link-color;
+    background: $nav-color;
     transition: width 0.25s;
 }
 
