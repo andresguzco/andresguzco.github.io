@@ -1,7 +1,7 @@
 - title: "Improving Energy Natural Gradient Descent through Woodbury, Momentum, and Randomization"
   authors: "Andrés Guzmán-Cordero, Felix Dangel, Gil Goldshlager, Marius Zeinhofer"
   year: 2025
-  venue: "NeurIPS"
+  venue: "NeurIPS (Conference on Neural Information Processing Systems)"
   url: "https://arxiv.org/abs/2505.12149"
   pdf: "https://arxiv.org/pdf/2505.12149.pdf"
   preview: "sphere.png"
@@ -9,7 +9,7 @@
 - title: "Exponential Family Variational Flow Matching for Tabular Data Generation"
   authors: "Andrés Guzmán-Cordero, Floor Eijkelboom, Jan-Willem van de Meent"
   year: 2025
-  venue: "ICML"
+  venue: "ICML (International Conference on Machine Learning)"
   url: "https://arxiv.org/abs/2506.05940"
   pdf: "https://arxiv.org/pdf/2506.05940.pdf"
   preview: "vi.png"
@@ -25,6 +25,6 @@
 - title: "Dimension Debate: Is 3D a Step Too Far for Optimizing Molecules?"
   authors: "Andrés Guzmán-Cordero, Luca A. Thiede, Gary Tom, Alán Aspuru-Guzik, Felix Strieth-Kalthoff, Agustinus Kristiadi"
   year: 2024
-  venue: "AI4Mat @ NeurIPS"
+  venue: "AI4Mat (AI for Accelerated Materials Design) Workshop @ NeurIPS"
   pdf: "https://openreview.net/pdf?id=AnPEfzBstD"
   preview: "3dbayes.jpg"
