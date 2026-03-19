@@ -61,6 +61,15 @@ copyright = "&copy; 2026 Andrés Guzmán-Cordero. All rights reserved."
   url = "/posts/"
   weight = 3
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
+
 [module]
   [module.hugoVersion]
     extended = true
