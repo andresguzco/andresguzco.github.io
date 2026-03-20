@@ -10,4 +10,5 @@ Before my PhD, I completed an MPhil at the [University of Amsterdam](https://www
 I then wrote my thesis at the [University of Toronto](https://web.cs.toronto.edu) with [Alán Aspuru-Guzik](https://www.matter.toronto.edu/basic-content-page/about-alan) on Bayesian and manifold optimization.
 Previously, I did my BSc at the [Vrije Universiteit Amsterdam](https://www.vu.nl), where I worked with [Andre Lucas](https://sites.google.com/view/alucas) on statistical models for particle tracking.
 
+In past lives, I've been a med student, a banker, a consultant, and a quant researcher. 
 Outside of research, you can find me outdoors (hiking/climbing/camping), at the bouldering gym or trying new hobbies!
