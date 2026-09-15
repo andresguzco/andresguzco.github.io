@@ -6,12 +6,12 @@ copyright = "&copy; 2026 Andrés Guzmán-Cordero"
 
 [params]
   mainSections = ["posts"]
-  tagline = "Machine learning methods for quantum many-body problems."
+  tagline = "Machine learning researcher working on quantum many-body problems."
 
   [params.head]
     author = "Andrés Guzmán-Cordero"
-    description = "Andrés Guzmán-Cordero, PhD student at Mila working on machine learning methods for quantum many-body problems and electronic structure calculations."
-    keywords = ["Andrés Guzmán-Cordero", "machine learning", "quantum many-body problems", "electronic structure", "density functional theory", "Mila"]
+    description = "Andrés Guzmán-Cordero, computer science PhD student at Mila applying machine learning and deep learning to quantum many-body problems and electronic structure calculations."
+    keywords = ["Andrés Guzmán-Cordero", "machine learning", "deep learning", "quantum many-body problems", "electronic structure", "density functional theory", "Mila"]
 
   [params.author]
     # Used to bold your own name in author lists.
