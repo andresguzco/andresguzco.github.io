@@ -4,10 +4,18 @@
 visible: 3
 
 items:
+  - date: "Dec 2025"
+    text: 'I&rsquo;m attending <strong>NeurIPS 2025</strong> in person! <a href="mailto:andres.guzman-cordero@mila.quebec">Let&rsquo;s chat</a>.'
   - date: "Sep 2025"
     text: 'Started my PhD at <a href="https://mila.quebec/en">Mila</a>, advised by <a href="https://necludov.github.io">Kirill Neklyudov</a>.'
+  - date: "Sep 2025"
+    text: '<a href="https://arxiv.org/abs/2505.12149"><em>Improving Energy Natural Gradient Descent through Woodbury, Momentum, and Randomization</em></a> was accepted at <strong>NeurIPS 2025</strong>.'
+  - date: "Jul 2025"
+    text: 'I&rsquo;m attending <strong>ICML 2025</strong> in person! <a href="mailto:andres.guzman-cordero@mila.quebec">Let&rsquo;s chat</a>.'
   - date: "Jun 2025"
     text: 'Completed my MPhil at the <a href="https://www.uva.nl">University of Amsterdam</a>.'
+  - date: "May 2025"
+    text: '<a href="https://arxiv.org/abs/2506.05940"><em>Exponential Family Variational Flow Matching for Tabular Data Generation</em></a> was accepted at <strong>ICML 2025</strong>.'
   - date: "Feb 2025"
     text: 'The <a href="http://dx.doi.org/10.1039/D4FD00153B">Spiers Memorial Lecture</a> on impactful AI research for chemistry appeared in <strong>Faraday Discussions</strong>.'
   - date: "Sep 2024"
