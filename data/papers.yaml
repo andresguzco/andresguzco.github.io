@@ -1,5 +1,6 @@
 # `tldr` carries the plain-language claims, two or three per paper.
 # `summary` fills the collapsible "More" panel and holds the published abstract.
+# `post` is retained but not rendered; the write-up links are off pending a Substack.
 
 - title: "Improving Energy Natural Gradient Descent through Woodbury, Momentum, and Randomization"
   authors: "Andrés Guzmán-Cordero, Felix Dangel, Gil Goldshlager, Marius Zeinhofer"
