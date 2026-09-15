@@ -1,0 +1,126 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Anchored sections shouldn't land flush against the viewport edge. */
+    scroll-padding-top: 2.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+    }
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-display: swap;
+}
+
+img { max-width: 100%; height: auto; }
+
+/*
+Page shell. Two columns on desktop: a sticky rail and the content column.
+Collapses to a single column below the breakpoint.
+*/
+.page {
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 4rem 24px 5rem;
+    display: grid;
+    grid-template-columns: var(--rail) minmax(0, 1fr);
+    column-gap: var(--gutter);
+    align-items: start;
+}
+
+/* Single-column shell for blog posts. */
+.page--narrow {
+    display: block;
+    max-width: 760px;
+}
+
+@media (max-width: 860px) {
+    .page {
+        display: block;
+        padding-top: 2.5rem;
+    }
+}
+
+/* Keyboard-only skip link. */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: var(--ink);
+    color: var(--bg);
+    padding: .5rem .875rem;
+    z-index: 20;
+}
+.skip-link:focus { left: .5rem; top: .5rem; }
+
+:where(a, button, summary):focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+/* Theme toggle, pinned out of the way. */
+.theme-toggle {
+    position: fixed;
+    top: #{"max(1rem, env(safe-area-inset-top, 0px))"};
+    right: 1rem;
+    z-index: 10;
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    background: var(--bg);
+    color: var(--faint);
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: color .15s ease, border-color .15s ease;
+}
+.theme-toggle:hover { color: var(--ink); border-color: var(--line-strong); }
+.theme-toggle svg { width: 15px; height: 15px; }
+:root[data-theme="dark"] .theme-toggle .icon-sun,
+:root:not([data-theme="light"]) .theme-toggle .icon-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-moon,
+:root:not([data-theme="light"]) .theme-toggle .icon-moon { display: block; }
+@media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) .theme-toggle .icon-sun  { display: block; }
+    :root:not([data-theme="dark"]) .theme-toggle .icon-moon { display: none; }
+}
+:root[data-theme="light"] .theme-toggle .icon-sun  { display: block; }
+:root[data-theme="light"] .theme-toggle .icon-moon { display: none; }
+
+.site-footer {
+    grid-column: 2;
+    margin-top: 4rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    font-family: var(--font-mono);
+    font-size: .7rem;
+    letter-spacing: .04em;
+    color: var(--faint);
+}
+.page--narrow .site-footer { grid-column: auto; }
+
+@media (max-width: 860px) {
+    .site-footer { grid-column: auto; }
+}

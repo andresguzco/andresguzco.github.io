@@ -1,45 +1,28 @@
-pre, code {
-	font-family: monospace;
-    background-color: rgba(invert($background-color), 0.1);
-    border-radius: 5px;
+pre, code, samp {
+    font-family: var(--font-mono);
 }
 
 code {
-	font-size: 12px;
-	padding: 4px;
+    background-color: var(--surface);
+    border-radius: 3px;
+    font-size: .8125em;
+    padding: .125em .3em;
 }
 
 pre {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-	word-wrap: normal;
-	padding: 16px;
-	overflow: auto;
-	font-size: 85%;
-	line-height: 1.45;
+    background-color: var(--surface);
+    border-radius: var(--radius);
+    margin: 1.75rem 0;
+    padding: 1rem;
+    overflow-x: auto;
+    font-size: .8125rem;
+    line-height: 1.55;
 }
 
-pre>code {
-	padding: 0;
-	margin: 0;
-	font-size: 100%;
-	word-break: normal;
-	white-space: pre;
-	background: transparent;
-	border: 0;
-}
-
-pre code {
-	display: inline;
-	padding: 0;
-	margin: 0;
-	overflow: visible;
-	line-height: inherit;
-	word-wrap: normal;
-	background-color: transparent;
-	border: 0;
-}
-
-pre code::before, pre code::after {
-	content: normal;
+pre > code {
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    white-space: pre;
+    word-break: normal;
 }

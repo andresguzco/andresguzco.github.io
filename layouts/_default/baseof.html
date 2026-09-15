@@ -1,29 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
-    {{- partial "head.html" . -}}
+{{- partial "head.html" . -}}
 
-    <body>
+<body>
 
-        <div class="outer">
-            <div class="middle">
-                <div class="inner">
-                    
-                    {{- partial "header.html" . -}}
-                    {{- partial "navigation.html" . -}}
-                    
-                    <main>
-                        {{ block "main" . }} {{ end }}
-                    </main>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-                    {{- partial "footer.html" . -}}
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle colour theme">
+        {{ partial "icon.html" "sun" }}{{ partial "icon.html" "moon" }}
+    </button>
 
-                </div>
-            </div>
-        </div>
+    {{ block "body" . }}{{ end }}
 
-        {{- partial "math.html" . -}}
+    <script>
+        (function () {
+            var root = document.documentElement;
+            var btn = document.querySelector("[data-theme-toggle]");
+            if (btn) {
+                btn.addEventListener("click", function () {
+                    var dark = root.dataset.theme
+                        ? root.dataset.theme === "dark"
+                        : matchMedia("(prefers-color-scheme: dark)").matches;
+                    var next = dark ? "light" : "dark";
+                    root.dataset.theme = next;
+                    try { localStorage.setItem("theme", next); } catch (e) {}
+                });
+            }
 
-    </body>
+            // Scroll-spy: mark the rail entry for the section currently in view.
+            var links = document.querySelectorAll("[data-toc] a");
+            if (!links.length || !("IntersectionObserver" in window)) return;
+            var byId = {};
+            links.forEach(function (a) { byId[a.getAttribute("href").slice(1)] = a; });
+
+            var visible = new Set();
+            var io = new IntersectionObserver(function (entries) {
+                entries.forEach(function (e) {
+                    if (e.isIntersecting) visible.add(e.target.id);
+                    else visible.delete(e.target.id);
+                });
+                var ids = Object.keys(byId).filter(function (id) { return visible.has(id); });
+                var active = ids[0];
+                if (!active) return;
+                links.forEach(function (a) {
+                    a.toggleAttribute("aria-current", a.getAttribute("href") === "#" + active);
+                    if (a.getAttribute("href") === "#" + active) a.setAttribute("aria-current", "true");
+                });
+            }, { rootMargin: "-10% 0px -70% 0px", threshold: 0 });
+
+            Object.keys(byId).forEach(function (id) {
+                var el = document.getElementById(id);
+                if (el) io.observe(el);
+            });
+        })();
+    </script>
+
+    {{- partial "math.html" . -}}
+
+</body>
 </html>

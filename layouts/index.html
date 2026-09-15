@@ -1,13 +1,31 @@
+{{ define "body" }}
+{{- $contents := slice
+    (dict "id" "about"    "label" "About")
+    (dict "id" "news"     "label" "Recently")
+    (dict "id" "research" "label" "Research")
+    (dict "id" "writing"  "label" "Writing") -}}
 
-{{ define "main" }}
+<div class="page">
 
-    <article>
-        {{ .Content }}
-    </article>
+    {{ partial "rail.html" (dict "page" . "contents" $contents) }}
 
-    {{ range $i, $e := where site.RegularPages "Type" "in" site.Params.mainSections }}
-        {{- if $i -}}<hr class="post-separator">{{ end -}}
-        {{ partial "post_li.html" $e }}
-    {{end}}
+    <main class="content" id="main">
 
+        <section class="section hero" id="about">
+            <h1 class="hero__name">{{ .Site.Title }}</h1>
+            {{ with .Site.Params.tagline }}<p class="hero__tagline">{{ . }}</p>{{ end }}
+            <div class="hero__bio prose">
+                {{ .Content }}
+            </div>
+        </section>
+
+        {{ if .Site.Params.sections.show_news }}{{ partial "news.html" . }}{{ end }}
+        {{ partial "research.html" . }}
+        {{ partial "writing.html" . }}
+
+    </main>
+
+    {{ partial "footer.html" . }}
+
+</div>
 {{ end }}

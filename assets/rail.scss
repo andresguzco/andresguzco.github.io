@@ -1,0 +1,82 @@
+.rail {
+    position: sticky;
+    top: 3rem;
+    align-self: start;
+    font-size: .8125rem;
+}
+
+.rail__photo {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 1.75rem;
+    background: var(--surface);
+}
+
+.rail__group + .rail__group { margin-top: 1.75rem; }
+
+.rail__heading {
+    font-family: var(--font-mono);
+    font-size: .625rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    padding-bottom: .375rem;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: .5rem;
+}
+
+.rail__list { list-style: none; padding: 0; margin: 0; }
+.rail__list li { margin: 0; }
+
+.rail__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: .1875rem 0;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color .15s ease;
+}
+.rail__link span { text-decoration: underline; text-decoration-color: transparent; }
+.rail__link:hover { color: var(--ink); }
+.rail__link:hover span { text-decoration-color: var(--accent); }
+.rail__link svg { width: 12px; height: 12px; flex: none; color: var(--faint); }
+
+/* Contents: a tick marks the section currently in view. */
+.rail__toc { list-style: none; padding: 0; margin: 0; }
+.rail__toc a {
+    display: block;
+    padding: .1875rem 0 .1875rem .625rem;
+    margin-left: -.625rem;
+    border-left: 2px solid transparent;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color .15s ease, border-color .15s ease;
+}
+.rail__toc a:hover { color: var(--ink); }
+.rail__toc a[aria-current="true"] {
+    color: var(--ink);
+    border-left-color: var(--accent);
+    font-weight: 500;
+}
+
+@media (max-width: 860px) {
+    .rail {
+        position: static;
+        display: grid;
+        grid-template-columns: 88px minmax(0, 1fr);
+        column-gap: 1.25rem;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+    .rail__photo { width: 88px; height: 88px; margin-bottom: 0; }
+    .rail__group + .rail__group { margin-top: 0; }
+    .rail__heading { display: none; }
+    .rail__links { display: flex; flex-wrap: wrap; gap: 0 1rem; }
+    /* The ToC duplicates the page order on a single-column layout. */
+    .rail__contents { display: none; }
+}

@@ -1,16 +1,17 @@
-
-{{ define "main" }}
-
-<h1>{{ .Title }}</h1>
-
-{{ .Content }}
-
-{{ with .Data.Pages }}
-    <ul>
-    {{ range $i, $e := . }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-    </ul>
-{{ end }}
-
+{{ define "body" }}
+<div class="page page--narrow">
+    <main class="content" id="main">
+        <a class="post-back" href="/">{{ partial "icon.html" "arrow-left" }} {{ .Site.Title }}</a>
+        <h1 class="post__title">{{ .Title }}</h1>
+        {{ .Content }}
+        <ul class="post-list writing" style="margin-top:2rem">
+            {{ range .Pages }}
+            <li class="writing__item">
+                <h2 class="writing__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            </li>
+            {{ end }}
+        </ul>
+    </main>
+    {{ partial "footer.html" . }}
+</div>
 {{ end }}

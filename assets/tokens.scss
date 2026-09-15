@@ -1,0 +1,59 @@
+:root {
+    color-scheme: light;
+
+    /* Surfaces */
+    --bg:           #faf9f5;
+    --surface:      #f0eee6;
+    --surface-sunk: #e8e6dc;
+    --line:         #e8e6dc;
+    --line-strong:  #dedcd1;
+    /* Paper figures are line art on transparent backgrounds — they always need
+       a light plate, or they vanish in dark mode. */
+    --figure-bg:    #f0eee6;
+
+    /* Ink */
+    --ink:   #141413;
+    --text:  #3d3d3a;
+    --muted: #5e5d59;
+    --faint: #87867f;
+
+    /* The only accent on the page. */
+    --accent: #d97757;
+
+    /* Type */
+    --font-sans:    #{$sans}, ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-display: #{$display}, ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-mono:    #{$mono}, ui-monospace, "SF Mono", Menlo, monospace;
+
+    /* Rhythm */
+    --rail:    200px;
+    --gutter:  64px;
+    --measure: 68ch;
+    --radius:  4px;
+}
+
+@mixin dark-tokens {
+    color-scheme: dark;
+
+    --bg:           #161614;
+    --surface:      #201f1c;
+    --surface-sunk: #2a2926;
+    --line:         #2e2d2a;
+    --line-strong:  #3d3d3a;
+    --figure-bg:    #ddd9cd;
+
+    --ink:   #f5f4ed;
+    --text:  #d1cfc5;
+    --muted: #a5a39a;
+    --faint: #87867f;
+
+    --accent: #e0916f;
+}
+
+/* System preference, unless the reader has explicitly chosen light. */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { @include dark-tokens; }
+}
+
+/* Explicit choice always wins, in both directions. */
+:root[data-theme="dark"] { @include dark-tokens; }

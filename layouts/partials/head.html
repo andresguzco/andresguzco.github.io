@@ -1,91 +1,63 @@
-
 <head>
 
-    <!-- Add Hugo version and build date -->
     {{ hugo.Generator }}
     <meta name="date" content="{{ hugo.BuildDate }}">
 
-    <!-- Set meta tags -->
     <meta charset="utf-8">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="6000">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="referrer" content="no-referrer">
-    <meta name="theme-color" content="{{ .Site.Params.colors.theme_color | default "#333333" }}">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f5" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#161614" media="(prefers-color-scheme: dark)">
 
-    <!-- Add author, description and keywords -->
-    <meta name="author" content="{{ .Site.Params.head.Author }}">
-    <meta name="description" content="{{ .Site.Params.head.Description }}" />
+    <meta name="author" content="{{ .Site.Params.head.author }}">
+    <meta name="description" content="{{ .Site.Params.head.description }}">
     {{ with .Site.Params.head.keywords }}
-        <meta name="keywords" content="{{ delimit .  ", " }}" />
+        <meta name="keywords" content="{{ delimit . ", " }}">
     {{ end }}
 
-    <!-- Define title -->
-    {{ if .IsHome}}
-        <title>{{- .Site.Title -}}&nbsp;•&nbsp;Home</title>
+    {{ if .IsHome }}
+        <title>{{ .Site.Title }}</title>
     {{ else }}
-        <title>{{- .Site.Title -}}&nbsp;•&nbsp;{{- .Title -}}</title>
+        <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
     {{ end }}
 
-    <!-- Define OpenGraph (OG) properties -->
-    <meta property="og:title" content="{{ .Site.Title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="{{ .Site.Params.head.description }}" />
-    <meta property="og:image" content="{{ .Site.BaseURL }}images/prof_pic.jpeg" />
-    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:description" content="{{ .Site.Params.head.description }}">
+    <meta property="og:image" content="{{ "images/prof_pic.jpeg" | absURL }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ .Site.Params.head.description }}">
+    <meta name="twitter:image" content="{{ "images/prof_pic.jpeg" | absURL }}">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{ .Site.Title }}" />
-    <meta name="twitter:description" content="{{ .Site.Params.head.description }}" />
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}images/prof_pic.jpeg" />
-
-    <!-- Define canonical link -->
     <link rel="canonical" href="{{ .Permalink }}">
-    
-    <!-- Set favicon -->
     <link rel="icon" type="image/jpeg" href="/images/icon.jpg">
+    {{ with .OutputFormats.Get "rss" }}
+        <link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
+    {{ end }}
 
-    <!-- Generate CSS file from SCSS and include -->
     {{ $template := resources.Get "styles.scss" }}
     {{ $style := $template | resources.ExecuteAsTemplate "styles.scss" . | css.Sass (dict "outputStyle" "compressed") | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink | absURL }}">
+    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
-    <!-- Include custom CSS file -->
-    {{ with .Site.Params.head.custom_css }}
-        <link href="{{ . }}" rel="stylesheet">
-    {{ end }}
-
-    <!-- Load Google fonts -->
+    {{/* One request for both families; no icon-font CDNs — icons are inline SVG. */}}
+    {{ $t := .Site.Params.typography }}
+    {{ $families := slice
+        (printf "%s:wght@400;500;600;700" (replace ($t.body_font | default "Space Grotesk") " " "+"))
+        (printf "%s:wght@400;700" (replace ($t.mono_font | default "Space Mono") " " "+")) }}
+    {{ $fonts := printf "https://fonts.googleapis.com/css2?family=%s&display=swap" (delimit $families "&family=") }}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="{{ $fonts }}">
 
-    {{ if and .Site.Params.typography (isset .Site.Params.typography "title_font") }}
-        <link rel="preload" href="https://fonts.googleapis.com/css?family={{ .Site.Params.typography.title_font }}&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.typography.title_font }}&display=swap"></noscript>
-    {{ else }}
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"></noscript>
-    {{ end }}
-
-    {{ if and .Site.Params.typography (isset .Site.Params.typography "body_font") }}
-        <link rel="preload" href="https://fonts.googleapis.com/css?family={{ .Site.Params.typography.body_font }}:400,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.typography.body_font }}:400,700&display=swap"></noscript>
-    {{ else }}
-        <link rel="preload" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap"></noscript>
-    {{ end }}
-
-    <!-- Load CSS for FontAwesome icons -->
-    {{ if isset .Site.Params "social" }}
-        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /></noscript>
-    {{ end }}
-
-    <!-- Load AcademIcons -->
-    {{ if isset .Site.Params "social" }}
-        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></noscript>
-    {{ end }}
+    {{/* Applied before first paint so an explicit theme choice never flashes. */}}
+    <script>
+        try {
+            var t = localStorage.getItem("theme");
+            if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+        } catch (e) {}
+    </script>
 
 </head>

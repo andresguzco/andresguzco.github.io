@@ -1,0 +1,65 @@
+{{- $me := .Site.Params.author.name -}}
+{{- $papers := .Site.Data.papers -}}
+{{- $years := slice -}}
+{{- range $papers }}{{ $years = $years | append .year }}{{ end -}}
+{{- $years = collections.Reverse ($years | uniq | sort) -}}
+
+<section class="section" id="research">
+    <h2 class="section__title">Research</h2>
+
+    {{ range $year := $years }}
+        <h3 class="papers__year">{{ $year }}</h3>
+
+        {{ range $papers }}
+        {{ if eq .year $year }}
+        <article class="paper">
+
+            {{ with .preview }}
+            <div class="paper__preview">
+                <img src="/images/papers/{{ . }}" alt="" loading="lazy">
+            </div>
+            {{ end }}
+
+            <div class="paper__body">
+
+                <p class="paper__meta">
+                    {{ if .venue_full }}<abbr title="{{ .venue_full }}">{{ .venue }}</abbr>{{ else }}{{ .venue }}{{ end }}
+                    &middot; {{ .year }}
+                    {{ with .award }}&middot; <span class="paper__award">{{ . }}</span>{{ end }}
+                </p>
+
+                <h4 class="paper__title">
+                    {{ $href := or .url .pdf }}
+                    {{ if $href }}<a href="{{ $href }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+                </h4>
+
+                <p class="paper__authors">
+                    {{ replace .authors $me (printf "<strong>%s</strong>" $me) | safeHTML }}
+                </p>
+
+                {{ with .tldr }}
+                <ul class="paper__tldr">
+                    {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
+                </ul>
+                {{ end }}
+
+                <div class="paper__links">
+                    {{ with .url }}<a href="{{ . }}">Paper</a>{{ end }}
+                    {{ with .pdf }}<a href="{{ . }}">PDF</a>{{ end }}
+                    {{ with .doi }}<a href="https://doi.org/{{ . }}">DOI</a>{{ end }}
+                    {{ with .post }}<a href="{{ . }}">Write-up</a>{{ end }}
+                </div>
+
+                {{ with .summary }}
+                <details class="disclosure">
+                    <summary>More</summary>
+                    <div class="disclosure__body">{{ . }}</div>
+                </details>
+                {{ end }}
+
+            </div>
+        </article>
+        {{ end }}
+        {{ end }}
+    {{ end }}
+</section>

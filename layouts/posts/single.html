@@ -1,3 +1,26 @@
-{{ define "main" }}
-    {{ partial "post.html" . }}
+{{ define "body" }}
+<div class="page page--narrow">
+    <main class="content" id="main">
+
+        <a class="post-back" href="/">{{ partial "icon.html" "arrow-left" }} {{ .Site.Title }}</a>
+
+        <article class="post">
+            <header class="post__header">
+                <h1 class="post__title">{{ .Title }}</h1>
+                <p class="post__meta">
+                    {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
+                    <span>{{ .ReadingTime }} min read</span>
+                    {{ with .Params.paper_url }}<a href="{{ . }}">Paper</a>{{ end }}
+                </p>
+            </header>
+
+            <div class="post__body prose">
+                {{ .Content | safeHTML }}
+            </div>
+        </article>
+
+    </main>
+
+    {{ partial "footer.html" . }}
+</div>
 {{ end }}

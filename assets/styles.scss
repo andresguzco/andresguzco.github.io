@@ -1,31 +1,18 @@
 /*
-Read the variables defined in the config.toml file and define the corresponding
-SCSS variables. This is achieved by `resources.ExecuteAsTemplate` in the <head>;
-warnings by a linter that the following is not valid SCSS can be ignored.
+Entry point. Fonts come from hugo.toml via `resources.ExecuteAsTemplate` in
+<head>; warnings from a linter that this is not valid SCSS can be ignored.
+Colours are CSS custom properties (see tokens.scss) so dark mode is a runtime
+switch rather than a second compiled stylesheet.
 */
 
-$title-font: {{ .Site.Params.typography.title_font | default "Bree Serif" }};
-$body-font: {{ .Site.Params.typography.body_font | default "Source Sans Pro" }};
+$sans: "{{ .Site.Params.typography.body_font | default "Space Grotesk" }}";
+$display: "{{ .Site.Params.typography.title_font | default "Space Grotesk" }}";
+$mono: "{{ .Site.Params.typography.mono_font | default "Space Mono" }}";
 
-$background-color: {{ .Site.Params.colors.background_color | default "#fcfbf9" }};
-$text-color: {{ .Site.Params.colors.text_color | default "#333333" }};
-$link-color: {{ .Site.Params.colors.link_color | default "#60c17d" }};
-$nav-color: {{ .Site.Params.colors.nav_color | default "#5b2c82" }};
-
-
-
-
-/*
-Load the rest of the stylesheets.
-*/
-
-@import "_default.scss";
-@import "code.scss";
-@import "footer.scss";
-@import "header.scss";
-@import "navigation.scss";
-@import "landing_page.scss";
-@import "main.scss";
-@import "papers.scss";
-@import "post.scss";
+@import "tokens.scss";
+@import "base.scss";
 @import "typography.scss";
+@import "rail.scss";
+@import "sections.scss";
+@import "post.scss";
+@import "code.scss";

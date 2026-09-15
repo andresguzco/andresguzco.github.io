@@ -3,6 +3,7 @@ title: "Flow Matching Meets Exponential Families for Tabular Data"
 date: 2025-06-08
 paper_url: "https://arxiv.org/abs/2506.05940"
 math: true
+description: "Giving every column of a mixed-type table its own exponential family, and why that makes the training loss fall out for free."
 ---
 
 ## Motivation

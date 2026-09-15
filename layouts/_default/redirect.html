@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting&hellip;</title>
+    <link rel="canonical" href="{{ .Params.target | absURL }}">
+    <meta http-equiv="refresh" content="0; url={{ .Params.target | absURL }}">
+    <meta name="robots" content="noindex">
+</head>
+<body>
+    <p><a href="{{ .Params.target | absURL }}">This page has moved &mdash; continue&hellip;</a></p>
+</body>
+</html>

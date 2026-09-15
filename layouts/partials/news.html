@@ -1,0 +1,32 @@
+{{- $news := .Site.Data.news -}}
+{{- with $news.items -}}
+{{- $visible := int (default 3 $news.visible) -}}
+
+<section class="section" id="news">
+    <h2 class="section__title">Recently</h2>
+
+    <ul class="news">
+        {{ range first $visible . }}
+        <li class="news__item">
+            <span class="news__date">{{ .date }}</span>
+            <span>{{ .text | safeHTML }}</span>
+        </li>
+        {{ end }}
+    </ul>
+
+    {{ if gt (len .) $visible }}
+    <details class="disclosure">
+        <summary>{{ sub (len .) $visible }} more</summary>
+        <ul class="news" style="margin-top:.5rem">
+            {{ range after $visible . }}
+            <li class="news__item">
+                <span class="news__date">{{ .date }}</span>
+                <span>{{ .text | safeHTML }}</span>
+            </li>
+            {{ end }}
+        </ul>
+    </details>
+    {{ end }}
+</section>
+
+{{- end -}}

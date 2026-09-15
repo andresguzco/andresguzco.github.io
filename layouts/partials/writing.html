@@ -1,0 +1,21 @@
+{{- $posts := where .Site.RegularPages "Type" "in" .Site.Params.mainSections -}}
+{{- with $posts -}}
+
+<section class="section" id="writing">
+    <h2 class="section__title">Writing</h2>
+
+    <ul class="writing">
+        {{ range . }}
+        {{ $p := . }}
+        <li class="writing__item">
+            {{ if not .Date.IsZero }}
+            <time class="writing__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2006" }}</time>
+            {{ end }}
+            <h3 class="writing__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="writing__excerpt">{{ with .Params.description }}{{ . }}{{ else }}{{ $p.Summary | plainify | truncate 180 }}{{ end }}</p>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+
+{{- end -}}

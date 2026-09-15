@@ -2,67 +2,64 @@ baseURL = "https://andresguzco.github.io/"
 languageCode = "en-us"
 title = "Andrés Guzmán-Cordero"
 
-copyright = "&copy; 2026 Andrés Guzmán-Cordero. All rights reserved."
+copyright = "&copy; 2026 Andrés Guzmán-Cordero"
 
 [params]
   mainSections = ["posts"]
+  tagline = "PhD student at Mila, working on generative modelling for the natural sciences."
 
   [params.head]
     author = "Andrés Guzmán-Cordero"
     description = "Andrés Guzmán-Cordero — PhD student at Mila working on generative modelling for molecular simulation."
     keywords = ["Andrés Guzmán-Cordero", "machine learning", "generative modelling", "molecular simulation", "Mila"]
 
-  [params.navigation]
-    show_navigation = true
+  [params.author]
+    # Used to bold your own name in author lists.
+    name = "Andrés Guzmán-Cordero"
+    photo = "/images/prof_pic.jpeg"
+
+  [params.typography]
+    title_font = "Space Grotesk"
+    body_font = "Space Grotesk"
+    mono_font = "Space Mono"
+
+  [params.sections]
+    show_news = true
 
   [params.footer]
     show_footer = true
 
-  [params.typography]
-    title_font = "Space Mono"
-    body_font = "Space Mono"
-
-  [params.colors]
-    theme_color = "#333333"
-    background_color = "#fcfbf9"
-    text_color = "#333333"
-    link_color = "#60c17d"
-    nav_color = "#5b2c82"
-
+  # Sidebar profile links. `icon` maps to an inline SVG in partials/icon.html.
   [params.social]
     [params.social.email]
-      name = "E-Mail"
-      class = "fas fa-envelope"
+      name = "Email"
+      icon = "mail"
       url = "mailto:andres.guzman-cordero@mila.quebec"
       weight = 1
+    [params.social.scholar]
+      name = "Google Scholar"
+      icon = "scholar"
+      url = "https://scholar.google.com/citations?user=mQI7UcgAAAAJ&hl=en"
+      external = true
+      weight = 2
     [params.social.github]
       name = "GitHub"
-      class = "fab fa-github"
+      icon = "github"
       url = "https://github.com/andresguzco"
-      weight = 2
-    [params.social.google_scholar]
-      name = "Google Scholar"
-      class = "ai ai-google-scholar-square"
-      url = "https://scholar.google.com/citations?user=mQI7UcgAAAAJ&hl=en"
+      external = true
       weight = 3
-
-[[menus.main]]
-  name = "About"
-  url = "/about/"
-  weight = 1
-
-[[menus.main]]
-  name = "Papers"
-  url = "/papers/"
-  weight = 2
-
-[[menus.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 3
+    # Drop a PDF at static/cv.pdf (or images/cv.pdf) and uncomment:
+    # [params.social.cv]
+    #   name = "Academic CV"
+    #   icon = "doc"
+    #   url = "/cv.pdf"
+    #   external = true
+    #   weight = 4
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         enable = true
