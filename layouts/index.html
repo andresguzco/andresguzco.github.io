@@ -2,8 +2,7 @@
 {{- $contents := slice
     (dict "id" "about"    "label" "About")
     (dict "id" "news"     "label" "Recently")
-    (dict "id" "research" "label" "Research")
-    (dict "id" "writing"  "label" "Writing") -}}
+    (dict "id" "research" "label" "Research") -}}
 
 <div class="page">
 
@@ -21,7 +20,8 @@
 
         {{ if .Site.Params.sections.show_news }}{{ partial "news.html" . }}{{ end }}
         {{ partial "research.html" . }}
-        {{ partial "writing.html" . }}
+        {{/* Writing section is disabled pending a Substack. Re-enable with:
+             {{ partial "writing.html" . }} */}}
 
     </main>
 

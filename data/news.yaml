@@ -1,17 +1,16 @@
-# PLACEHOLDER CONTENT. Dates and wording need your review.
 # Newest first. `text` accepts inline HTML (<a>, <em>, <strong>).
 # Anything past the first `visible` entries folds behind "Show more".
 
 visible: 3
 
 items:
-  - date: "Dec 2025"
-    text: 'Presented <a href="https://arxiv.org/abs/2505.12149"><em>Improving Energy Natural Gradient Descent</em></a> at <strong>NeurIPS 2025</strong>.'
-  - date: "Jul 2025"
-    text: 'Presented <a href="https://arxiv.org/abs/2506.05940"><em>Exponential Family Variational Flow Matching</em></a> at <strong>ICML 2025</strong>.'
+  - date: "Sep 2025"
+    text: 'Started my PhD at <a href="https://mila.quebec/en">Mila</a>, advised by <a href="https://necludov.github.io">Kirill Neklyudov</a>.'
   - date: "2025"
+    text: 'Started an internship at the <a href="https://vectorinstitute.ai">Vector Institute</a>.'
+  - date: "Jun 2025"
+    text: 'Completed my MSc at the <a href="https://www.uva.nl">University of Amsterdam</a>.'
+  - date: "Feb 2025"
     text: 'The <a href="http://dx.doi.org/10.1039/D4FD00153B">Spiers Memorial Lecture</a> on impactful AI research for chemistry appeared in <strong>Faraday Discussions</strong>.'
-  - date: "Dec 2024"
-    text: 'Presented <a href="https://openreview.net/pdf?id=AnPEfzBstD"><em>Dimension Debate</em></a> at the <strong>AI4Mat</strong> workshop, NeurIPS 2024.'
-  - date: "2024"
-    text: 'Started my PhD at <a href="https://mila.quebec/en">Mila</a> with <a href="https://necludov.github.io">Kirill Neklyudov</a>.'
+  - date: "Sep 2024"
+    text: 'Began a visit to the <a href="https://www.matter.toronto.edu">Matter Lab</a> at the University of Toronto, through April 2025.'
