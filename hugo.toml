@@ -74,3 +74,8 @@ copyright = "&copy; 2026 Andrés Guzmán-Cordero"
   [[module.mounts]]
     source = "images"
     target = "static/images"
+  # Declaring any mount above replaces Hugo's default static mount, so the
+  # `static/` directory has to be mounted back explicitly.
+  [[module.mounts]]
+    source = "static"
+    target = "static"
