@@ -1,7 +1,5 @@
-# `tldr` is the most valuable field on the page: two plain-language bullets so a
-# reader knows what the paper did without opening anything.
-# `summary` fills the collapsible "▸ More" panel — swap in the real abstract if
-# you'd rather show that.
+# `tldr` carries the plain-language claims, two or three per paper.
+# `summary` fills the collapsible "More" panel and holds the published abstract.
 
 - title: "Improving Energy Natural Gradient Descent through Woodbury, Momentum, and Randomization"
   authors: "Andrés Guzmán-Cordero, Felix Dangel, Gil Goldshlager, Marius Zeinhofer"
@@ -13,17 +11,22 @@
   post: "/posts/energy-ngd/"
   preview: "sphere.png"
   tldr:
-    - "The Woodbury identity moves the energy natural-gradient solve out of parameter space and into sample space, giving a >30× speedup per iteration on 5D Poisson while *improving* optimization quality."
-    - "SPRING-style momentum removes the expensive line search, and a GPU-friendly randomized Nyström sketch keeps large batches affordable."
+    - "The ENGD curvature matrix is built from residual Jacobians, so the Woodbury formula rewrites the solve in sample space instead of parameter space. This reaches the same L² error as the original ENGD up to 75× faster."
+    - "Adapting SPRING (Subsampled Projected-Increment Natural Gradient Descent) from the variational Monte Carlo literature accelerates convergence and removes the line search that standard ENGD requires."
+    - "Randomized solvers help in the early stages of training on low-dimensional problems. We identify the barriers to obtaining the same acceleration in other settings."
   summary: >
-    Natural-gradient methods help PINNs train through badly conditioned landscapes,
-    but the curvature matrix lives in parameter space and is usually too expensive to
-    use. We observe that this curvature is not arbitrary — it is built from Jacobians
-    of PDE residuals, so it carries hidden low-rank structure. The push-through identity
-    exposes it, rewriting the solve in terms of an N×N kernel matrix instead of a
-    P×P curvature matrix and computing the same ENGD direction far more cheaply.
-    On top of that, SPRING transports curvature information across iterations, and a
-    Cholesky-based Nyström approximation avoids SVDs when batches grow large.
+    Natural gradient methods significantly accelerate the training of Physics-Informed
+    Neural Networks (PINNs), but are often prohibitively costly. We introduce a suite of
+    techniques to improve the accuracy and efficiency of energy natural gradient descent
+    (ENGD) for PINNs. First, we leverage the Woodbury formula to dramatically reduce the
+    computational complexity of ENGD. Second, we adapt the Subsampled Projected-Increment
+    Natural Gradient Descent algorithm from the variational Monte Carlo literature to
+    accelerate the convergence. Third, we explore the use of randomized algorithms to
+    further reduce the computational cost in the case of large batch sizes. We find that
+    randomization accelerates progress in the early stages of training for low-dimensional
+    problems, and we identify key barriers to attaining acceleration in other scenarios.
+    Our numerical experiments demonstrate that our methods outperform previous approaches,
+    achieving the same L² error as the original ENGD up to 75× faster.
 
 - title: "Exponential Family Variational Flow Matching for Tabular Data Generation"
   authors: "Andrés Guzmán-Cordero, Floor Eijkelboom, Jan-Willem van de Meent"
@@ -35,17 +38,20 @@
   post: "/posts/ef-vfm/"
   preview: "vi.png"
   tldr:
-    - "Model each column of a mixed-type table with its own exponential family — Gaussian, Bernoulli, Categorical — so flow matching works natively on tables instead of forcing a continuous relaxation."
-    - "Training then reduces to matching sufficient statistics, and the objective is exactly a Bregman divergence — which is why continuous columns get an MSE-like loss and categorical ones a cross-entropy-like loss, for free."
+    - "Exponential Family Variational Flow Matching represents mixed continuous and discrete features with a single exponential family, so tabular data needs no continuous relaxation of its discrete columns."
+    - "The resulting objective is moment matching, which we connect to generalized flow matching objectives based on Bregman divergences. TabbyFlow, built on this formulation, reaches state of the art on tabular benchmarks."
   summary: >
-    A single table usually mixes continuous, binary and categorical variables, and each
-    column has its own geometry and its own natural loss. Variational Flow Matching lets
-    us pick a tractable variational distribution per column; choosing exponential families
-    makes the objective column-aware but unified. The gradient depends only on the gap
-    between sufficient statistics under the posterior path and those predicted by the
-    model, and the whole objective turns out to be the Bregman divergence induced by
-    the convex dual of the log-partition function. TabbyFlow, built on this framework,
-    reaches state of the art on standard tabular benchmarks.
+    While denoising diffusion and flow matching have driven major advances in generative
+    modeling, their application to tabular data remains limited, despite its ubiquity in
+    real-world applications. To this end, we develop TabbyFlow, a variational Flow Matching
+    (VFM) method for tabular data generation. To apply VFM to data with mixed continuous
+    and discrete features, we introduce Exponential Family Variational Flow Matching
+    (EF-VFM), which represents heterogeneous data types using a general exponential family
+    distribution. We hereby obtain an efficient, data-driven objective based on moment
+    matching, enabling principled learning of probability paths over mixed continuous and
+    discrete variables. We also establish a connection between variational flow matching
+    and generalized flow matching objectives based on Bregman divergences. Evaluation on
+    tabular data benchmarks demonstrates state-of-the-art performance compared to baselines.
 
 - title: "Spiers Memorial Lecture: How to do impactful research in artificial intelligence for chemistry and materials science"
   authors: "Austin H. Cheng, Cher Tian Ser, Marta Skreta, Andrés Guzmán-Cordero, Luca Thiede, Andreas Burger, Abdulrahman Aldossary, Shi Xuan Leong, Sergio Pablo-García, Felix Strieth-Kalthoff, Alán Aspuru-Guzik"
@@ -56,8 +62,12 @@
   doi: "10.1039/D4FD00153B"
   preview: "faraday.jpg"
   tldr:
-    - "A perspective on where machine learning actually moves the needle in chemistry and materials science — and where it mostly produces benchmark numbers."
-    - "Argues for choosing problems by their scientific consequence rather than by the availability of a clean dataset."
+    - "Sets out how machine learning researchers view and approach problems in chemistry and materials science."
+    - "Gives our considerations for maximizing impact when doing machine learning research for chemistry."
+  summary: >
+    We discuss how machine learning researchers view and approach problems in chemistry
+    and provide our considerations for maximizing impact when researching machine learning
+    for chemistry.
 
 - title: "Dimension Debate: Is 3D a Step Too Far for Optimizing Molecules?"
   authors: "Andrés Guzmán-Cordero, Luca A. Thiede, Gary Tom, Alán Aspuru-Guzik, Felix Strieth-Kalthoff, Agustinus Kristiadi"
@@ -68,14 +78,13 @@
   post: "/posts/3d-molecules/"
   preview: "3dbayes.jpg"
   tldr:
-    - "1D and especially 2D molecular representations usually beat 3D ones inside a Bayesian optimization loop — 3D does not generally justify its cost."
-    - "3D surrogates are dramatically more sample-hungry, sometimes needing >10,000 observations to catch strong 2D baselines, which is prohibitive in the small-data regime BO is built for."
+    - "Compares 1D, 2D and 3D molecular representations inside a Bayesian optimization loop, scored by optimization progress rather than by predictive accuracy. 1D and 2D representations generally win."
+    - "3D surrogates need on the order of 10,000 observations before closing the gap to 2D baselines, which exceeds the budget Bayesian optimization is meant to operate under. Transfer learning narrows the gap but does not reverse the ordering."
   summary: >
-    Molecules are 3D objects, so it is tempting to assume 3D representations should
-    dominate. We test that assumption decision-theoretically: what matters in Bayesian
-    optimization is not representation faithfulness but whether the induced posterior
-    helps the surrogate find high-value molecules in few expensive evaluations. Comparing
-    Gaussian processes against neural surrogates with a linearized Laplace approximation,
-    and scoring by normalized GAP, richer geometry consistently adds cost faster than it
-    adds useful decision-making power. Transfer learning narrows the gap but does not
-    close it.
+    Molecules are three-dimensional objects, so it is tempting to assume that 3D
+    representations should dominate 1D and 2D ones for molecular discovery. We test that
+    assumption inside a Bayesian optimization loop, where what matters is not
+    representation faithfulness but whether the induced posterior finds high-value
+    molecules in few expensive evaluations. Comparing Gaussian processes against neural
+    surrogates with a linearized Laplace approximation, and scoring by normalized GAP,
+    we find that richer geometry adds cost faster than it adds decision-making power.

@@ -6,12 +6,12 @@ copyright = "&copy; 2026 Andrés Guzmán-Cordero"
 
 [params]
   mainSections = ["posts"]
-  tagline = "PhD student at Mila, working on generative modelling for the natural sciences."
+  tagline = "Optimization and generative models for the natural sciences."
 
   [params.head]
     author = "Andrés Guzmán-Cordero"
-    description = "Andrés Guzmán-Cordero — PhD student at Mila working on generative modelling for molecular simulation."
-    keywords = ["Andrés Guzmán-Cordero", "machine learning", "generative modelling", "molecular simulation", "Mila"]
+    description = "Andrés Guzmán-Cordero, PhD student at Mila working on optimization and generative models for the natural sciences."
+    keywords = ["Andrés Guzmán-Cordero", "machine learning", "generative models", "optimization", "electronic structure", "Mila"]
 
   [params.author]
     # Used to bold your own name in author lists.

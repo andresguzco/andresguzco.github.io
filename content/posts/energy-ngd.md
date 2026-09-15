@@ -3,7 +3,7 @@ title: "Making Natural Gradient Descent Practical"
 date: 2025-05-18
 paper_url: "https://arxiv.org/abs/2505.12149"
 math: true
-description: "Why the curvature matrix in PINN training has hidden low-rank structure, and what the Woodbury identity buys you once you exploit it."
+description: "How the low-rank structure of the ENGD curvature matrix makes second-order optimization of PINNs affordable."
 ---
 
 ## Motivation

@@ -42,7 +42,7 @@
     {{ $style := $template | resources.ExecuteAsTemplate "styles.scss" . | css.Sass (dict "outputStyle" "compressed") | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
-    {{/* One request for both families; no icon-font CDNs — icons are inline SVG. */}}
+    {{/* One request for both families. Icons are inline SVG, no icon-font CDNs. */}}
     {{ $t := .Site.Params.typography }}
     {{ $families := slice
         (printf "%s:wght@400;500;600;700" (replace ($t.body_font | default "Space Grotesk") " " "+"))

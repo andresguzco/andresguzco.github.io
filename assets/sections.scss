@@ -37,7 +37,7 @@ Hero
 .hero__bio p:last-child { margin-bottom: 0; }
 
 /*
-News — a date column and a text column.
+News: a date column and a text column.
 */
 .news { list-style: none; padding: 0; margin: 0; max-width: var(--measure); }
 
@@ -156,7 +156,7 @@ Research entries
 .paper__links a { color: var(--muted); text-decoration-color: var(--line-strong); }
 .paper__links a:hover { color: var(--ink); }
 
-/* Native disclosure — no JavaScript. */
+/* Native disclosure, no JavaScript. */
 .disclosure > summary {
     cursor: pointer;
     list-style: none;
@@ -229,7 +229,7 @@ Writing
 
 .paper__links + .disclosure { margin-top: .4375rem; }
 
-/* Venue acronym carries the full name as a tooltip — keep the hint quiet. */
+/* Venue acronym carries the full name as a tooltip, so keep the hint quiet. */
 .paper__meta abbr {
     text-decoration: underline dotted;
     text-decoration-color: var(--line-strong);
