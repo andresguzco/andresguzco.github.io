@@ -9,6 +9,8 @@
   venue_full: "arXiv:2609.31483"
   url: "https://arxiv.org/abs/2609.31483"
   pdf: "https://arxiv.org/pdf/2609.31483"
+  # Placeholder: a generic pi bonding orbital, not a figure from the paper.
+  preview: "molecular-orbital.png"
   tldr:
     - "GS-DFT replaces the fixed atom-centered basis with a cloud of Gaussians whose positions, shapes and mixing coefficients are optimized jointly by gradient descent to minimize the energy, using no training data. Conceptually it is 3D Gaussian splatting with the renderer replaced by quantum mechanics."
     - "The optimized basis reaches the accuracy of the largest conventional basis sets at a fraction of the parameter count, converging systematically in energy, density and nuclear forces. At equal parameter count it captures the stretched-bond and anion physics that fixed bases recover only with specialized augmentation."
