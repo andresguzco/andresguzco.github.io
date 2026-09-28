@@ -84,6 +84,10 @@ Research entries
 }
 .paper:last-child { margin-bottom: 0; }
 
+/* A paper with no preview figure spans both columns rather than being
+   squeezed into the 116px thumbnail track. */
+.paper__body:only-child { grid-column: 1 / -1; }
+
 .paper__preview {
     margin-top: .25rem;
     border: 1px solid var(--line);

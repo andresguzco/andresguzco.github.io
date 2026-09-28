@@ -4,6 +4,8 @@
 visible: 3
 
 items:
+  - date: "Sep 2026"
+    text: 'New preprint: <a href="https://arxiv.org/abs/2609.31483"><em>Scaling Density Functional Theory with Gaussian Splatting</em></a>.'
   - date: "Dec 2025"
     text: 'I&rsquo;m attending <strong>NeurIPS 2025</strong> in person! <a href="mailto:andres.guzman-cordero@mila.quebec">Let&rsquo;s chat</a> in San Diego.'
   - date: "Sep 2025"
